@@ -24,83 +24,82 @@
             <h3 class="visually-hidden">Фильтр</h3>
             <fieldset class="filter-item">
               <legend class="visually-hidden">Данные кота</legend>
-                <p class="filter-item__cat-data">
-                  <label class="" for="appointment-name">Имя:<sup>*</sup></label>
-                  <input class="" name="name" type="text" id="appointment-name" placeholder="Барсик">
+                <p class="filter-item__form-field form-field">
+                  <label class="form-field__form-label" for="appointment-name">Имя:<sup>*</sup></label>
+                  <input class="form-field__form-input" name="name" type="text" id="appointment-name" placeholder="Барсик">
                 </p>
-                <p class="filter-item__cat-data">
-                  <label class="" for="appointment-weight">Вес (кг):<sup>*</sup></label>
-                  <input class="" name="weight" type="number" id="appointment-weight" placeholder="7">
+                <p class="filter-item__form-field">
+                  <label class="form-field__form-label" for="appointment-weight">Вес (кг):<sup>*</sup></label>
+                  <input class="form-field__form-input" name="weight" type="number" id="appointment-weight" placeholder="7">
                 </p>
-                <p class="filter-item__cat-data">
-                  <label class="" for="appointment-age">Возраст (лет):</label>
-                  <input class="" name="age" type="number" id="appointment-age" placeholder="7">
+                <p class="filter-item__form-field">
+                  <label class="form-field__form-label" for="appointment-age">Возраст (лет):</label>
+                  <input class="form-field__form-input" name="age" type="number" id="appointment-age" placeholder="7">
                 </p>
             </fieldset>
 
             <fieldset class="filter-item">
                 <legend class="visually-hidden">Ожидаемый результат</legend>
-                 <ul class="">
-                   <li class="">
-                      <input class="visually-hidden" name="greed" type="radio" id="slimming" value="1" checked>
-                      <label class="" for="slimming">Похудение</label>
+                 <ul class="filter-item__switch switch-group">
+                   <li class="switch-group__filter-option filter-option">
+                      <input class="visually-hidden filter-option__filter-input-radio" name="greed" type="radio" id="slimming" value="1" checked>
+                      <label class="filter-option__filter-label-radio filter-label" for="slimming">Похудение</label>
                    </li>
-                   <li class="">
-                      <input class="visually-hidden" name="greed" type="radio" id="mass-gain" value="2">
-                      <label class="" for="mass-gain">Набор массы</label>
+                   <li class="switch-group__filter-option">
+                      <input class="visually-hidden filter-option__filter-input-radio" name="greed" type="radio" id="mass-gain" value="2">
+                      <label class="filter-option__filter-label-radio filter-label" for="mass-gain">Набор массы</label>
                    </li>
-                   <li class="">
-                      <input class="visually-hidden" name="greed" type="radio" id="not-know" value="3">
-                      <label class="" for="not-know">Не знаю (Нужен ваш совет)</label>
+                   <li class="switch-group__filter-option">
+                      <input class="visually-hidden filter-option__filter-input-radio" name="greed" type="radio" id="not-know" value="3">
+                      <label class="filter-option__filter-label-radio filter-label" for="not-know">Не знаю (Нужен ваш совет)</label>
                    </li>
                  </ul>
             </fieldset>
 
             <fieldset class="filter-item">
                 <legend class="visually-hidden">Контактные данные (владельца кота)</legend>
-                  <p class="filter-item__cat-data">
-                    <label class="" for="appointment-email">E-mail:<sup>*</sup></label>
-                    <input class="" name="email" type="text" id="appointment-email" placeholder="kuklachev@gmail.com">
+                  <p class="filter-item__form-field form-field">
+                    <label class="form-field__form-label" for="appointment-email">E-mail:<sup>*</sup></label>
+                    <input class="form-field__form-input" name="email" type="text" id="appointment-email" placeholder="kuklachev@gmail.com">
                   </p>
-                  <p class="filter-item__cat-data">
-                    <label class="" for="appointment-phone">Телефон:<sup>*</sup></label>
-                    <input class="" name="phone" type="tel" id="appointment-phone" placeholder="8 (960) 900-60-90">
+                  <p class="filter-item__form-field">
+                    <label class="form-field__form-label" for="appointment-phone">Телефон:<sup>*</sup></label>
+                    <input class="form-field__form-input" name="phone" type="tel" id="appointment-phone" placeholder="8 (960) 900-60-90">
                   </p>
             </fieldset>
 
             <fieldset class="filter-item">
               <legend class="visually-hidden">Комментарий</legend>
-                <p class="filter-item__cat-data">
-                  <textarea class="" name="text" id="appointment-text" rows="5" cols="40" placeholder="Расскажите обо всех повадках кота"></textarea>
+                <p class="filter-item__form-field form-field">
+                  <textarea class="form-field__form-label" name="text" id="appointment-text" rows="5" cols="40" placeholder="Расскажите обо всех повадках кота"></textarea>
                 </p>
             </fieldset>
 
             <fieldset class="filter-item">
                 <legend class="visually-hidden">Дополнительно</legend>
-                 <ul class="">
-                   <li class="">
-                      <input class="visually-hidden" name="option" type="checkbox" id="sweetener" value="1" checked>
-                      <label class="" for="sweetener">Сахарозаменитель</label>
+                 <ul class="filter-item__switch switch-group">
+                   <li class="switch-group__filter-option filter-option">
+                      <input class="visually-hidden filter-option__filter-input-checkbox" name="option" type="checkbox" id="sweetener" value="1" checked>
+                      <label class="filter-option__filter-label-checkbox filter-label" for="sweetener">Сахарозаменитель</label>
                    </li>
-                   <li class="">
-                      <input class="visually-hidden" name="option" type="checkbox" id="water" value="2">
-                      <label class="" for="water">Питьевая вода</label>
+                   <li class="switch-group__filter-option">
+                      <input class="visually-hidden filter-option__filter-input-checkbox" name="option" type="checkbox" id="water" value="2">
+                      <label class="filter-option__filter-label-checkbox filter-label" for="water">Питьевая вода</label>
                    </li>
-                   <li class="">
-                      <input class="visually-hidden" name="option" type="checkbox" id="milk" value="3">
-                      <label class="" for="milk">Молоко</label>
+                   <li class="switch-group__filter-option">
+                      <input class="visually-hidden filter-option__filter-input-checkbox" name="option" type="checkbox" id="milk" value="3">
+                      <label class="filter-option__filter-label-checkbox filter-label" for="milk">Молоко</label>
                    </li>
-                   <li class="">
-                      <input class="visually-hidden" name="option" type="checkbox" id="vitamins" value="4">
-                      <label class="" for="vitamins">Витамины</label>
+                   <li class="switch-group__filter-option">
+                      <input class="visually-hidden filter-option__filter-input-checkbox" name="option" type="checkbox" id="vitamins" value="4">
+                      <label class="filter-option__filter-label-checkbox filter-label" for="vitamins">Витамины</label>
                    </li>
                  </ul>
             </fieldset>
-
-
+            <button class="button" type="submit">Отправить заявку</button>
+              <p><sup>*</sup>— Обязательные поля</p>
           </form>
-          <button class="button" type="submit">Отправить заявку</button>
-          <p><sup>*</sup>— Обязательные поля</p>
+
         </section>
 
       </main>
