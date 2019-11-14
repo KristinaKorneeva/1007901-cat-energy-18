@@ -1,17 +1,15 @@
 @import "variables.scss";
 @import "normalize.scss";
+@import "base.scss";
+@import "blocks/inner.scss";
+@import "blocks/programs.scss";
 @import "blocks/header.scss";
 @import "blocks/nav.scss";
-@import "blocks/programs.scss";
 @import "blocks/title.scss";
-@import "block/category.scss";
-
-body {
-  font-family: $font-family;
-  color: #444444;
-}
-
-a {
-  text-decoration: none;
-}
-
+@import "blocks/category.scss";
+@import "blocks/example.scss";
+@import "blocks/heading.scss";
+@import "blocks/footer.scss";
+@import "blocks/button.scss";
+@import "blocks/discription.scss";
+@import "blocks/present.scss";

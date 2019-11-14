@@ -1,9 +1,13 @@
 .nav__list {
   list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
 
 .nav__item {
-  border-bottom: 1px solid #e6e6e6;
+  border-top: $border-main;
+  width: 100%;
 }
 
 .nav__link {

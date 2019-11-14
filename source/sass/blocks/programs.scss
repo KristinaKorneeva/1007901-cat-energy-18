@@ -1,4 +1,8 @@
 .programs {
-  background: url("/img/index-background-mobile@1x.jpg") no-repeat;
-  color: $color-text;
+  color: $color-light;
+  background-image: $background-index;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  min-height: 305px;
 }
+

@@ -1,16 +1,36 @@
-@font-face {
-  font-family: "Oswald";
-  src: url("/fonts/oswaldregular.woff") format("woff"), url("/fonts/oswaldregular.woff2") format("woff2");
-  font-weight: 400;
-}
+$font_family:  "Oswald", sans-serif;
+$font-family_secondary: "Arial", sans-serif;
+$image_present: url("/img/gift-photo-mobile@1x.jpg");
+$image_index: url("/img/index-background-mobile@1x.jpg");
+$image_map: url("/img/bg-map-mobile@1x.png");
 
-@font-face {
-  font-family: "Oswald";
-  src: url("/fonts/oswaldmedium.woff") format("woff"), url("/fonts/oswaldmedium.woff2") format("woff2");
-  font-weight: 500;
-}
-$font-family:  "Oswald", "Arial", sans-serif;
-$primary-color: #68b738;
-$secondary-color: #f2f2f2;
-$color-titles: #111111;
-$color-text: #ffffff;
+/*переменные для цветов*/
+$primary_color: #68b738;
+$secondary_color: #f2f2f2;
+/*переменные для рамок*/
+$border_main: 1px solid #e6e6e6;
+$border_secondary: 1px solid #cdcdcd;
+$border_tertairy: 1px solid #d9d9d9;
+$border_catalog: 1px solid #ededed;
+/*переменные для цветов текста*/
+$text_color_main: #111111;
+$text_color_defolt: #444444;
+$text_color_light: #ffffff;
+$text_color_content: #222222;
+/*переменные для размера шрифта*/
+$font-size_defolt: 14px;
+$font-size_nav: 20px;
+$font-size_heading: 36px;
+$font-size_subject: 24px;
+$font-size_primary: 16px;
+$font-size_secondary: 12px;
+/*переменные для высоты строки*/
+$line-height_defolt: 18px;
+$line-height_nav: 20px;
+$line-height_heading: 60px;
+$line-height-subject: 24px;
+$line-height_secondary: 12px;
+$line-height_primary: 16px;
+/*кнопка в programs*/
+$main_padding: 0 20px;
+$main_margin: 0 auto;
