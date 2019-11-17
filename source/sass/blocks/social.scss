@@ -1,0 +1,10 @@
+.social__link:hover,
+.social__link:focus {
+  & .social__icon-path {
+    fill: $primary_color;
+  }
+}
+
+.social__link:active {
+  opacity: 0.6;
+}

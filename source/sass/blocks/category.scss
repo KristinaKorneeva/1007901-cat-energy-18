@@ -1,8 +1,12 @@
 .category {
   background: $secondary-color;
 
-  padding: 20px;
+  padding: 20px 20px 0 20px;
   margin-top: 20px;
+}
+
+.category__title {
+  text-transform: uppercase;
 }
 
 .category__image {
@@ -12,5 +16,9 @@
 }
 
 .category__link {
+  display: block;
+
   border-top: $border_tertairy;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }

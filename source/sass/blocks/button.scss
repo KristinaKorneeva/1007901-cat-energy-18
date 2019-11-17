@@ -4,4 +4,20 @@
   font-size: $font-size_primary;
   line-height: $line-height_nav;
   text-transform: uppercase;
+  text-align: center;
+
+  cursor: pointer;
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.button:hover {
+  background: $primary_color_hover;
+}
+
+.button:active {
+  color: rgba($text_color_light, 0.3);
 }

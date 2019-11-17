@@ -1,7 +1,28 @@
 .programs {
   color: $text_color_light;
-  background-image: $image-index;
+  text-align: center;
+  background: url("../img/index-background-mobile@1x.jpg");
   background-repeat: no-repeat;
-  background-position-x: center;
-  min-height: 305px;
+  background-position: center;
+  background-size: cover;
+  height: 360px;
+
+  margin-bottom: 200px;
+}
+
+.programs__wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.programs__title {
+  color: $text_color_light;
+}
+
+.programs__img {
+  order: 2;
+}
+
+.programs__button {
+  order: 3;
 }

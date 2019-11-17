@@ -9,16 +9,17 @@
 
 a {
   text-decoration: none;
+  cursor: pointer;
 }
 
 body {
   margin: 0 auto;
   padding: 0;
-  min-width: 320px;
+  min-width: $width-s;
 
-  font-family: $font-family;
-  font-weight: normal;
-  font-size: $font-size_defolt;
-  line-height: $line-height-defolt;
-  color: $text_color_defolt;
+  color: $text_color_main;
+  font-family: $font-family_primary;
+  font-weight: 400;
+  font-size: $font-size_default;
+  line-height: $line-height-default;
 }

@@ -1,0 +1,36 @@
+.catalog {
+  margin-top: 30px;
+}
+
+.catalog__card {
+  border: $border_catalog;
+
+  margin: 0 -20px;
+  padding: 20px 20px;
+}
+
+.catalog__more {
+  text-align: center;
+  border: $border_catalog;
+  padding-bottom: 25px;
+  padding-top: 26px;
+  margin: 0 -20px;
+}
+
+.catalog__icon {
+  opacity: 0.3;
+}
+
+.catalog__button {
+  background: $secondary_color;
+  color: $text_color_default;
+}
+
+.catalog__button:hover,
+.catalog__button:focus {
+  background: $secondary_color_hover;
+}
+
+.catalog__button:active {
+  color: rgba($text_color_default, 0.3);
+}
