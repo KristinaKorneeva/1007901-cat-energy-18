@@ -108,7 +108,7 @@
 }
 
 .form__input--checkbox:checked + .form__label--checkbox::after {
-  background: url(../img/icon-tick.svg) no-repeat;
+  background: url("../img/icon-tick.svg") no-repeat;
   content: "";
   position: absolute;
   height: 30px;
