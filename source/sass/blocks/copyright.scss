@@ -1,11 +1,12 @@
-.copyright__icon:hover,
-.copyright__icon:focus {
-  & .copyright__icon-path {
-    fill: $primary_color;
-  }
+.copyright__logo {
+  color: $icon__color;
 }
 
-.copyright__icon:active,
-.copyright__link:active {
+.copyright__logo:hover,
+.copyright__logo:focus {
+  color: $primary_color;
+}
+
+.copyright__logo:focus {
   opacity: 0.6;
 }
