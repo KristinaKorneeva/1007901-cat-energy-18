@@ -1,0 +1,14 @@
+.discription__list {
+  list-style: none;
+  padding: 0;
+}
+
+.discription__image {
+  display: block;
+  box-sizing: border-box;
+  text-align: center;
+  background: $primary_color;
+  width: 60px;
+  height: 60px;
+  padding-top: 15px;
+}

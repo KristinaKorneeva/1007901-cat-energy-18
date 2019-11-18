@@ -1,0 +1,11 @@
+.copyright__icon:hover,
+.copyright__icon:focus {
+  & .copyright__icon-path {
+    fill: $primary_color;
+  }
+}
+
+.copyright__icon:active,
+.copyright__link:active {
+  opacity: 0.6;
+}

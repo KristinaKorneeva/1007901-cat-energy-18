@@ -1,0 +1,26 @@
+.goods {
+  list-style: none;
+  padding: 0;
+
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.goods__title {
+  border-bottom: $border_secondary;
+
+  display: block;
+  padding-bottom: 30px;
+}
+
+.goods__item {
+  border-bottom: $border_secondary;
+
+  padding-bottom: 17px;
+}
+
+.goods__info {
+  display: flex;
+  justify-content: space-between;
+}

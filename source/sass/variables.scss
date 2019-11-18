@@ -1,0 +1,44 @@
+$font-family_primary:  "Oswald", sans-serif;
+$font-family_secondary: "Arial", sans-serif;
+/*переменные для ширины*/
+$width-s: 320px;
+$width-m: 768px;
+$width-l: 1440px;
+/*переменные для цветов*/
+$primary_color: #68b738;
+$secondary_color: #f2f2f2;
+$radio_color: #cecece;
+$checked_color: #cdcdcd;
+$eror_color: #ff8282;
+/*переменные для состояния кнопок*/
+$radio_color_hover: #bfbfbf;
+$checked_color_hover: #bababa;
+$primary_color_hover: #5eaa2f;
+$secondary_color_hover: #ebebeb;
+/*переменные для рамок*/
+$border_main: 1px solid #e6e6e6;
+$border_secondary: 1px solid #cdcdcd;
+$border_tertairy: 1px solid #d9d9d9;
+$border_catalog: 1px solid #ededed;
+/*переменные для цветов текста*/
+$text_color_main: #111111;
+$text_color_default: #444444;
+$text_color_light: #ffffff;
+$text_color_content: #222222;
+/*переменные для размера шрифта*/
+$font-size_default: 14px;
+$font-size_nav: 20px;
+$font-size_heading: 36px;
+$font-size_subject: 24px;
+$font-size_primary: 16px;
+$font-size_secondary: 12px;
+/*переменные для высоты строки*/
+$line-height_default: 18px;
+$line-height_nav: 20px;
+$line-height_heading: 36px;
+$line-height-subject: 24px;
+$line-height_secondary: 12px;
+$line-height_primary: 16px;
+/*кнопка в programs*/
+$main_padding: 0 20px;
+$main_margin: 0 auto;

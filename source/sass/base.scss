@@ -1,0 +1,25 @@
+.visually-hidden {
+  clip: rect(0 0 0 0);
+
+  height: 1px;
+  margin: -1px;
+  position: absolute;
+  width: 1px;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  min-width: $width-s;
+
+  color: $text_color_main;
+  font-family: $font-family_primary;
+  font-weight: 400;
+  font-size: $font-size_default;
+  line-height: $line-height-default;
+}
