@@ -1,3 +1,7 @@
+.form__title {
+  margin-bottom: 10px;
+}
+
 .form__item {
   border: none;
   padding: 0;
@@ -6,6 +10,16 @@
 .form__field {
   display: flex;
   align-items: center;
+}
+
+.form__input--icon-mail {
+  background: url("../img/icon-mail.svg") no-repeat;
+  background-position: 217px 13px;
+}
+
+.form__input--icon-tel {
+  background: url("..//img/icon-phone.svg") no-repeat;
+  background-position: 202px 8px;
 }
 
 .form__input {
@@ -29,16 +43,6 @@
   border-color: $eror_color;
 }
 
-.form__input--icon-mail {
-  background: url("../img/icon-mail.svg") no-repeat;
-  background-position: 217px 13px;
-}
-
-.form__input--icon-tel {
-  background: url("..//img/icon-phone.svg") no-repeat;
-  background-position: 202px 8px;
-}
-
 .form__label {
   padding-right: 10px;
 }
@@ -48,10 +52,9 @@
   margin: 0 -20px;
 }
 
-
 .form__textarea {
   width: 100%;
-  padding: 10px;
+  padding: 15px;
 }
 
 .form__list {
@@ -81,8 +84,9 @@
   width: 18px;
 }
 
-.form__input--radio:checked + .form__label--radio::after {
+.form__input--radio + .form__label--radio::after {
   background-color: $primary_color;
+  opacity: 0;
   border-radius: 50%;
   content: "";
   position: absolute;
@@ -90,6 +94,10 @@
   left: 4px;
   top: 4px;
   width: 12px;
+}
+
+.form__input--radio:checked + .form__label--radio::after {
+  opacity: 1;
 }
 
 .form__input--radio:hover + .form__label--radio::before,
@@ -114,6 +122,7 @@
 
 .form__input--checkbox + .form__label--checkbox::before {
   border: 1px solid $checked_color;
+  opacity: 1;
   content: "";
   position: absolute;
   height: 30px;
@@ -122,13 +131,18 @@
   width: 30px;
 }
 
-.form__input--checkbox:checked + .form__label--checkbox::after {
+.form__input--checkbox + .form__label--checkbox::after {
   background: url("../img/icon-tick.svg") no-repeat;
+  opacity: 0;
   content: "";
   position: absolute;
   height: 30px;
   left: 6px;
   width: 30px;
+}
+
+.form__input--checkbox:checked + .form__label--checkbox::after {
+  opacity: 1;
 }
 
 .form__input--checkbox:hover + .form__label--checkbox::before,

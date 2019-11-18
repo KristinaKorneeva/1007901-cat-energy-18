@@ -1,8 +1,11 @@
+
+.social__link {
+  color: $icon__color;
+}
+
 .social__link:hover,
 .social__link:focus {
-  & .social__icon-path {
-    fill: $primary_color;
-  }
+  color: $primary_color;
 }
 
 .social__link:active {
