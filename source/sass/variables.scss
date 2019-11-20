@@ -3,7 +3,7 @@ $font-family_secondary: "Arial", sans-serif;
 /*переменные для ширины*/
 $width-s: 320px;
 $width-m: 768px;
-$width-l: 1440px;
+$width-l: 1300px;
 /*переменные для цветов*/
 $primary_color: #68b738;
 $secondary_color: #f2f2f2;
@@ -29,6 +29,7 @@ $text_color_content: #222222;
 /*переменные для размера шрифта*/
 $font-size_default: 14px;
 $font-size_nav: 20px;
+$font-size_nav-mobil: 18px;
 $font-size_heading: 36px;
 $font-size_subject: 24px;
 $font-size_primary: 16px;
@@ -41,5 +42,7 @@ $line-height-subject: 24px;
 $line-height_secondary: 12px;
 $line-height_primary: 16px;
 /*кнопка в programs*/
-$main_padding: 0 20px;
 $main_margin: 0 auto;
+$mobil_padding: 0 20px;
+$tablet__padding: 0 30px;
+$desktop__padding: 0 110px;

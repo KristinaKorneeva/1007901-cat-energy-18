@@ -1,3 +1,141 @@
 .example {
   background: $secondary-color;
+
+  padding-bottom: 40px;
+}
+
+.example__wrapper-result {
+  text-align: center;
+}
+
+.example__indicators {
+  display: flex;
+  justify-content: center;
+}
+
+.example__result {
+  border: $border_main;
+  border-radius: 5px;
+
+  text-align: center;
+  margin-right: 35px;
+}
+
+
+.example__diff {
+  text-align: center;
+}
+
+.example__image:nth-child(2) {
+  display: none;
+}
+
+.example__wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.example__controls {
+  background-color: $text_color_light;
+  border-radius: 5px;
+
+  position: relative;
+
+  height: 14px;
+  width: 84px;
+  border: $border_tertairy;
+  margin-top: 18px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.example__bar {
+  background: #00ca74;
+  border-radius: 5px;
+
+  height: 6px;
+  margin-left: 5px;
+  width: 70%;
+  margin-top: 4px;
+}
+
+.toggle {
+  display: none;
+}
+
+/*
+.toggle {
+  background-color: #ababab;
+  border: 8px solid #ffffff;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 2px 1px 0 #cfcfcf;
+        box-shadow: 0 2px 1px 0 #cfcfcf;
+
+  box-sizing: content-box;
+  position: absolute;
+  cursor: pointer;
+  height: 4px;
+  left: 0;
+  padding: 0;
+  top: 31px;
+  width: 4px;
+}
+.example__button-prev {
+  left: 20px;
+}
+.example__button-next {
+  left: 160px;
+}
+*/
+
+@media (min-width: $width-m) {
+  .example {
+    background: #ffffff;
+
+    border-top: $border_main;
+  }
+
+  .example__diff {
+    background: $secondary-color;
+  }
+
+  .example__wrapper-result {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .example__controls {
+    background-color: $secondary_color_hover;
+    border-radius: 5px;
+
+    position: relative;
+    margin-top: 24px;
+    height: 6px;
+    width: 430px;
+  }
+
+  .example__bar {
+    display: none;
+  }
+
+  .example__toggle {
+    background-color: #00ca74;
+    border: 8px solid #ffffff;
+    border-radius: 50%;
+    box-shadow: 0 2px 1px 0 #cfcfcf;
+    box-sizing: content-box;
+    position: absolute;
+    cursor: pointer;
+    height: 4px;
+    padding: 0;
+    top: -8px;
+    width: 4px;
+    left: 200px;
+  }
+}
+
+@media (min-width: $width-l) {
+  .example {
+    background: $secondary-color;
+  }
 }

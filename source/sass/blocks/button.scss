@@ -21,3 +21,9 @@
 .button:active {
   color: rgba($text_color_light, 0.3);
 }
+
+@media (min-width: $width-m) {
+  .button {
+    width: 245px;
+  }
+}

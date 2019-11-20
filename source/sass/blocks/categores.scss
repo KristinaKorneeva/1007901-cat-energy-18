@@ -1,0 +1,7 @@
+@media (min-width: $width-l) {
+  .categores {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}

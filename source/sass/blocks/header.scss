@@ -4,19 +4,37 @@
   margin-bottom: 30px;
 }
 
-.header__nav {
-  margin: 0 -20px;
-}
-
 .header__wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
 
-  height: 65px;
+  min-height: 65px;
+}
+
+.header__nav {
+  margin: 0 -20px;
 }
 
 .header__button {
   background: transparent;
   border: none;
+}
+
+@media (min-width: $width-m) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+
+    border: none;
+    margin-bottom: 0;
+  }
+
+  .header__button {
+    display: none;
+  }
+
+  .header__nav {
+    margin: 0;
+  }
 }

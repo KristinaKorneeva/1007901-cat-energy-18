@@ -12,3 +12,53 @@
   height: 60px;
   padding-top: 15px;
 }
+
+@media (min-width: $width-m) {
+  .discription__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .discription__item {
+    box-sizing: border-box;
+    width: 354px;
+    min-height: 230px;
+    margin-bottom: 80px;
+    padding-right: 55px;
+  }
+
+  .discription__item:nth-child(1) {
+    background: url("../img/1.png");
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+
+  .discription__item:nth-child(2) {
+    background: url("../img/2.png");
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+
+  .discription__item:nth-child(3) {
+    background: url("../img/3.png");
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+
+  .discription__item:nth-child(4) {
+    background: url("../img/4.png");
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+}
+
+@media (min-width: $width-l) {
+  .discription__item {
+    box-sizing: border-box;
+    width: 245px;
+    min-height: 230px;
+    margin-bottom: 80px;
+    padding-right: 55px;
+  }
+}

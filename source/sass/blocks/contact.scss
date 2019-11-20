@@ -1,8 +1,52 @@
 .contact {
   display: flex;
+  justify-content: space-between;
   text-align: start;
+
+  padding: 30px 40px;
+}
+
+.contact__invitation {
+  width: 170px;
+}
+
+.contact__address {
+  width: 170px;
 }
 
 .contact--main {
   background: #ffffff;
+}
+
+@media (min-width: $width-m) {
+  .contact {
+    padding: 65px 60px;
+
+    justify-content: space-around;
+  }
+
+  .contact__address {
+    text-align: end;
+  }
+}
+
+@media (min-width: $width-l) {
+  .contact {
+    box-sizing: border-box;
+    justify-content: center;
+
+    width: 570px;
+    padding: 0;
+
+    position: absolute;
+    z-index: 1;
+  }
+
+  .contact__invitation {
+    width: 170px;
+  }
+
+  .contact__address {
+    width: 170px;
+  }
 }
