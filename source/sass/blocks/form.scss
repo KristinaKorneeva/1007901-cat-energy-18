@@ -14,12 +14,12 @@
 
 .form__input--icon-mail {
   background: url("../img/icon-mail.svg") no-repeat;
-  background-position: 217px 13px;
+  background-position: right 13px;
 }
 
 .form__input--icon-tel {
   background: url("..//img/icon-phone.svg") no-repeat;
-  background-position: 202px 8px;
+  background-position: right 8px;
 }
 
 .form__input {
@@ -156,4 +156,35 @@
 
 .form__text {
   text-align: center;
+}
+
+
+@media (min-width: $width-m) {
+  .form {
+    margin-right: 40px;
+    margin-left: 40px;
+  }
+
+  .form__item-radio {
+    margin: 0;
+  }
+
+  .form__instruction {
+    width: 260px;
+  }
+}
+
+@media (min-width: $width-l) {
+  .form {
+    margin: 0;
+  }
+
+  .form__info-cat {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .form__item {
+    flex-grow: 1;
+  }
 }

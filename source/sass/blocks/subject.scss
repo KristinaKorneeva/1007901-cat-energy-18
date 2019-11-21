@@ -2,4 +2,52 @@
   color: $text_color_main;
   font-size: $font-size_subject;
   line-height: $line-height-subject;
+
+  position: relative;
+  display: inline-block;
+}
+
+.subject::before {
+  display: block;
+  content: "";
+  height: 3px;
+  width: 100vw;
+
+  background: $primary_color;
+  position: absolute;
+  right: 100%;
+  top: 14px;
+}
+
+.subject::after {
+  display: block;
+  content: "";
+  height: 3px;
+  width: 100vw;
+  background: $primary_color;
+  position: absolute;
+  left: 100%;
+  top: 14px;
+}
+
+@media (min-width: $width-s) {
+  .subject::before {
+    display: none;
+  }
+
+  .subject::after {
+    margin-left: 25px;
+  }
+}
+
+@media (min-width: $width-m) {
+  .subject::before {
+    display: block;
+
+    margin-right: 40px;
+  }
+
+  .subject::after {
+    margin-left: 40px;
+  }
 }

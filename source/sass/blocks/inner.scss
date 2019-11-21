@@ -5,21 +5,21 @@
 
 @media (min-width: $width-s) {
   .inner {
-    min-width: $width-s;
+    width: $width-s;
     padding: $mobil-padding;
   }
 }
 
 @media (min-width: $width-m) {
   .inner {
-    min-width: $width-m;
+    width: $width-m;
     padding: $tablet__padding;
   }
 }
 
 @media (min-width: $width-l) {
   .inner {
-    min-width: $width-l;
+    width: $width-l;
     padding: $desktop__padding;
   }
 }
