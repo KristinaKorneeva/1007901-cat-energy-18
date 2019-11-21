@@ -24,3 +24,21 @@
   display: flex;
   justify-content: space-between;
 }
+
+@media (min-width: $width-m) {
+  .goods__button {
+    width: 100%;
+  }
+
+  .goods__item {
+    border: $border_secondary;
+
+    padding-left: 38px;
+    padding-right: 38px;
+  }
+
+  .goods__title {
+    text-align: center;
+    border: none;
+  }
+}

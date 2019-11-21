@@ -16,3 +16,13 @@
   font-size: $font-size_primary;
   line-height: $line-height_nav;
 }
+
+@media (min-width: $width-m) {
+  .present {
+    background-position: center;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+}

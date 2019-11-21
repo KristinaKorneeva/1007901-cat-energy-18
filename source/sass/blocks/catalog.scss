@@ -34,3 +34,29 @@
 .catalog__button:active {
   color: rgba($text_color_default, 0.3);
 }
+
+@media (min-width: $width-m) {
+  .catalog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    box-sizing: border-box;
+
+    margin-bottom: 55px;
+  }
+
+  .catalog__card {
+    text-align: center;
+    border: none;
+    background: $secondary_color;
+    padding-left: 35px;
+    padding-right: 35px;
+    margin: 0;
+  }
+
+  .catalog__more {
+    padding-left: 35px;
+    padding-right: 35px;
+    margin: 0;
+  }
+}

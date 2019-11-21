@@ -4,3 +4,10 @@
   line-height: $line-height_heading;
   font-weight: 400;
 }
+
+@media (min-width: $width-m) {
+  .title {
+    font-size: $font-size_title;
+    line-height: $line-height_title;
+  }
+}
