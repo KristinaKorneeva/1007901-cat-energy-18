@@ -42,3 +42,14 @@
     padding-right: 38px;
   }
 }
+
+@media (min-width: $width-m) {
+  .goods__item {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .goods__button {
+    width: 245px;
+  }
+}

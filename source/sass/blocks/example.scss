@@ -21,7 +21,6 @@
   margin-right: 35px;
 }
 
-
 .example__diff {
   text-align: center;
 }
@@ -62,31 +61,6 @@
 .toggle {
   display: none;
 }
-
-/*
-.toggle {
-  background-color: #ababab;
-  border: 8px solid #ffffff;
-  border-radius: 50%;
-  -webkit-box-shadow: 0 2px 1px 0 #cfcfcf;
-        box-shadow: 0 2px 1px 0 #cfcfcf;
-
-  box-sizing: content-box;
-  position: absolute;
-  cursor: pointer;
-  height: 4px;
-  left: 0;
-  padding: 0;
-  top: 31px;
-  width: 4px;
-}
-.example__button-prev {
-  left: 20px;
-}
-.example__button-next {
-  left: 160px;
-}
-*/
 
 @media (min-width: $width-m) {
   .example {

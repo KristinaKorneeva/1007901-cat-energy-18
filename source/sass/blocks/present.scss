@@ -26,3 +26,9 @@
     align-items: center;
   }
 }
+
+@media (min-width: $width-m) {
+  .present {
+    width: 245px;
+  }
+}
