@@ -175,7 +175,20 @@
 
   .form__wrap {
     display: flex;
-    justify-content: space-around;
+    justify-content: start;
+  }
+
+  .form__text {
+    margin-left: 80px;
+  }
+
+  .form__list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .form__checkbox {
+    width: 236px;
   }
 }
 
@@ -191,13 +204,5 @@
 
   .form__item {
     flex-grow: 1;
-  }
-
-  .form__wrap {
-    justify-content: start;
-  }
-
-  .form__text {
-    margin-left: 80px;
   }
 }
