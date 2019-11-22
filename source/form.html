@@ -32,8 +32,8 @@
           <form class="form__filling" method="POST" action="https://echo.htmlacademy.ru">
             <h3 class="visually-hidden">Фильтр</h3>
             <div class="form__info-cat">
-            <fieldset class="form__item">
-              <legend class="visually-hidden">Данные кота</legend>
+              <fieldset class="form__item">
+                <legend class="visually-hidden">Данные кота</legend>
                 <p class="form__field">
                   <label class="form__label heading" for="appointment-name">Имя:<sup>*</sup></label>
                   <input class="form__input heading" name="name" type="text" id="appointment-name" placeholder="Барсик">
@@ -46,9 +46,8 @@
                   <label class="form__label heading" for="appointment-age">Возраст (лет):</label>
                   <input class="form__input heading" name="age" type="number" id="appointment-age" placeholder="7">
                 </p>
-            </fieldset>
-
-            <fieldset class="form__item form__item-radio">
+              </fieldset>
+              <fieldset class="form__item form__item-radio">
                 <legend class="visually-hidden">Ожидаемый результат</legend>
                 <ul class="form__list">
                   <li class="form__list-item">
@@ -64,9 +63,8 @@
                     <label class="form__label--radio heading" for="not-know">Не знаю (Нужен ваш совет)</label>
                   </li>
                 </ul>
-            </fieldset>
-          </div>
-
+              </fieldset>
+            </div>
             <fieldset class="form__item">
                 <legend class="form__title subject">Контактные данные (владельца кота)</legend>
                 <p class="form__field">
@@ -78,12 +76,10 @@
                   <input class="form__input form__input--icon-tel heading" name="phone" type="tel" id="appointment-phone" placeholder="8 (960) 900-60-90">
                 </p>
             </fieldset>
-
             <fieldset class="form__item">
               <legend class="form__title subject">Комментарий</legend>
               <textarea class="form__textarea form__input heading" name="text" id="appointment-text" rows="7" placeholder="Расскажите обо всех повадках кота"></textarea>
             </fieldset>
-
             <fieldset class="form__item">
               <legend class="form__title subject">Дополнительно</legend>
               <ul class="form__list">
@@ -105,18 +101,24 @@
                 </li>
               </ul>
             </fieldset>
-            <button class="button" type="submit">Отправить заявку</button>
-            <p class="form__text text"><sup>*</sup>— Обязательные поля</p>
+            <div class="form__wrap">
+              <button class="button" type="submit">Отправить заявку</button>
+              <p class="form__text text"><sup>*</sup>— Обязательные поля</p>
+            </div>
           </form>
         </section>
       </main>
       <footer class="footer">
-        <div class="footer__contact contact inner">
-          <p class="contact__invitation heading">Приглашаем к сотрудничеству дилеров!</p>
-          <p class="contact__address text">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</p>
-        </div>
-        <div class="footer__map">
-          <!--map-->
+        <div class="footer__information information">
+          <div class="information__contact">
+            <div class="contact inner">
+              <p class="contact__invitation heading">Приглашаем к сотрудничеству дилеров!</p>
+              <p class="contact__address text">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</p>
+            </div>
+          </div>
+          <div class="information__map">
+            <!--map-->
+          </div>
         </div>
         <div class="footer__bottom inner">
           <a class="footer__logo"  href="index.html">

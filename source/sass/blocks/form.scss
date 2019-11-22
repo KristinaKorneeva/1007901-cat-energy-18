@@ -172,6 +172,11 @@
   .form__instruction {
     width: 260px;
   }
+
+  .form__wrap {
+    display: flex;
+    justify-content: space-around;
+  }
 }
 
 @media (min-width: $width-l) {
@@ -186,5 +191,13 @@
 
   .form__item {
     flex-grow: 1;
+  }
+
+  .form__wrap {
+    justify-content: start;
+  }
+
+  .form__text {
+    margin-left: 80px;
   }
 }
