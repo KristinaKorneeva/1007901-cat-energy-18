@@ -3,11 +3,12 @@
 }
 
 .information__map {
-  background: url("../img/bg-map-mobile@1x.png");
+  position: relative;
+
+  background-image: url("../img/bg-map-mobile@1x.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 360px;
 
-  position: relative;
+  height: 360px;
 }

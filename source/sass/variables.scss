@@ -7,6 +7,7 @@ $width-l: 1300px;
 /*переменные для цветов*/
 $primary_color: #68b738;
 $background_color: #61a842;
+$tertairy_color: #00ca74;
 $secondary_color: #f2f2f2;
 $icon__color: #666666;
 $radio_color: #cecece;
@@ -22,6 +23,7 @@ $border_main: 1px solid #e6e6e6;
 $border_secondary: 1px solid #cdcdcd;
 $border_tertairy: 1px solid #d9d9d9;
 $border_catalog: 1px solid #ededed;
+$border_catalog-dotted: 1px dotted #ededed;
 /*переменные для цветов текста*/
 $text_color_main: #111111;
 $text_color_default: #444444;
@@ -48,4 +50,4 @@ $line-height_primary: 16px;
 $main_margin: 0 auto;
 $mobil_padding: 0 20px;
 $tablet__padding: 0 30px;
-$desktop__padding: 0 110px;
+$desktop__padding: 0 40px;

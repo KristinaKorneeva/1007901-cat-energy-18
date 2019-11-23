@@ -15,7 +15,7 @@
 }
 
 .contact--main {
-  background: #ffffff;
+  background-color: $text_color_light;
 }
 
 @media (min-width: $width-m) {
@@ -32,21 +32,14 @@
 
 @media (min-width: $width-l) {
   .contact {
-    width: 570px;
-    height: 200px;
-
     position: absolute;
+    z-index: 1;
+
+    background-color: $text_color_light;
+
+    width: 30%;
+    min-height: 200px;
     top: 100px;
     right: 50%;
-    z-index: 1;
-    background: $text_color_light;
-  }
-
-  .contact__invitation {
-    width: 170px;
-  }
-
-  .contact__address {
-    width: 170px;
   }
 }

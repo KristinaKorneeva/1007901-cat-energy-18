@@ -12,8 +12,7 @@
 .catalog__more {
   text-align: center;
   border: $border_catalog;
-  padding-bottom: 25px;
-  padding-top: 26px;
+  padding: 20px 13px;
   margin: 0 -20px;
 }
 
@@ -22,13 +21,13 @@
 }
 
 .catalog__button {
-  background: $secondary_color;
+  background-color: $secondary_color;
   color: $text_color_default;
 }
 
 .catalog__button:hover,
 .catalog__button:focus {
-  background: $secondary_color_hover;
+  background-color: $secondary_color_hover;
 }
 
 .catalog__button:active {
@@ -48,15 +47,12 @@
   .catalog__card {
     text-align: center;
     border: none;
-    background: $secondary_color;
-    padding-left: 35px;
-    padding-right: 35px;
+    background-color: $secondary_color;
     margin: 0;
+    margin-bottom: 30px;
   }
 
   .catalog__more {
-    padding-left: 35px;
-    padding-right: 35px;
     margin: 0;
   }
 }

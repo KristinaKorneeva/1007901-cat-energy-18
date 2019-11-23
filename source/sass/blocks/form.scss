@@ -13,21 +13,22 @@
 }
 
 .form__input--icon-mail {
-  background: url("../img/icon-mail.svg") no-repeat;
+  background-image: url("../img/icon-mail.svg") no-repeat;
   background-position: right 13px;
 }
 
 .form__input--icon-tel {
-  background: url("..//img/icon-phone.svg") no-repeat;
+  background-image: url("..//img/icon-phone.svg") no-repeat;
   background-position: right 8px;
 }
 
 .form__input {
   box-sizing: border-box;
-  padding: 10px;
   flex-grow: 1;
 
   border: $border_catalog;
+
+  padding: 10px;
 }
 
 .form__input:hover,
@@ -63,9 +64,9 @@
 }
 
 .form__label--radio {
-  cursor: pointer;
   display: block;
   position: relative;
+  cursor: pointer;
   user-select: none;
 
   padding-bottom: 13px;
@@ -73,27 +74,31 @@
 }
 
 .form__input--radio + .form__label--radio::before {
-  border: 1px solid $radio_color;
-  opacity: 0.7;
-  border-radius: 50%;
-  content: "";
   position: absolute;
+  content: "";
+
+  border: 1px solid $radio_color;
+  border-radius: 50%;
+  opacity: 0.7;
+
   height: 18px;
+  width: 18px;
   left: 0;
   top: 0;
-  width: 18px;
 }
 
 .form__input--radio + .form__label--radio::after {
-  background-color: $primary_color;
-  opacity: 0;
-  border-radius: 50%;
-  content: "";
   position: absolute;
+  content: "";
+
+  background-color: $primary_color;
+  border-radius: 50%;
+  opacity: 0;
+
   height: 12px;
+  width: 12px;
   left: 4px;
   top: 4px;
-  width: 12px;
 }
 
 .form__input--radio:checked + .form__label--radio::after {
@@ -110,9 +115,9 @@
 }
 
 .form__label--checkbox {
-  cursor: pointer;
   display: block;
   position: relative;
+  cursor: pointer;
   user-select: none;
 
   padding-bottom: 35px;
@@ -121,24 +126,28 @@
 }
 
 .form__input--checkbox + .form__label--checkbox::before {
+  position: absolute;
+  content: "";
+
   border: 1px solid $checked_color;
   opacity: 1;
-  content: "";
-  position: absolute;
+
   height: 30px;
+  width: 30px;
   top: -7px;
   left: 0;
-  width: 30px;
 }
 
 .form__input--checkbox + .form__label--checkbox::after {
-  background: url("../img/icon-tick.svg") no-repeat;
-  opacity: 0;
-  content: "";
   position: absolute;
+  content: "";
+
+  background-image: url("../img/icon-tick.svg") no-repeat;
+  opacity: 0;
+
   height: 30px;
-  left: 6px;
   width: 30px;
+  left: 6px;
 }
 
 .form__input--checkbox:checked + .form__label--checkbox::after {
@@ -199,10 +208,15 @@
 
   .form__info-cat {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
   }
 
-  .form__item {
-    flex-grow: 1;
+  .form__item-data {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .form__field {
+    width: 45%;
   }
 }

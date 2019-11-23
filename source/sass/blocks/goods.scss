@@ -1,22 +1,16 @@
 .goods {
-  list-style: none;
-  padding: 0;
-
   display: block;
+  list-style: none;
+
+  padding: 0;
   margin-top: 30px;
   margin-bottom: 30px;
 }
 
-.goods__title {
-  border-bottom: $border_secondary;
-
-  padding-bottom: 30px;
-}
-
 .goods__item {
   border-bottom: $border_secondary;
-
-  padding-bottom: 17px;
+  padding-bottom: 15px;
+  padding-top: 15px;
 }
 
 .goods__info {
@@ -24,7 +18,15 @@
   justify-content: space-between;
 }
 
+.goods__button {
+  width: 100%;
+}
+
 @media (min-width: $width-m) {
+  .goods {
+    width: 100%;
+  }
+
   .goods__button {
     width: 100%;
   }
@@ -35,21 +37,24 @@
     padding-left: 38px;
     padding-right: 38px;
   }
-
-  .goods__title {
-    border: none;
-    padding-left: 38px;
-    padding-right: 38px;
-  }
 }
 
-@media (min-width: $width-m) {
+@media (min-width: $width-l) {
+  .goods {
+    width: 70%;
+
+    margin-right: 80px;
+  }
+
   .goods__item {
     display: flex;
     justify-content: space-between;
+
+    padding-right: 0;
+    padding-left: 0;
   }
 
   .goods__button {
-    width: 245px;
+    width: 25%;
   }
 }
