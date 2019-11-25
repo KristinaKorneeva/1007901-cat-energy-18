@@ -1,3 +1,45 @@
 .example {
   background: $secondary-color;
+
+  padding-bottom: 40px;
+}
+
+.example__wrapper-result {
+  text-align: center;
+}
+
+.example__indicators {
+  display: flex;
+  justify-content: center;
+}
+
+.example__result {
+  text-align: center;
+  border: $border_main;
+  border-radius: 5px;
+
+  margin-right: 35px;
+}
+
+@media (min-width: $width-m) {
+  .example {
+    background-color: $text_color_light;
+
+    border-top: $border_main;
+  }
+
+  .example__wrapper-result {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .example__slider {
+    background-color: $secondary_color;
+  }
+}
+
+@media (min-width: $width-l) {
+  .example {
+    background-color: $secondary-color;
+  }
 }

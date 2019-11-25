@@ -1,6 +1,25 @@
 .inner {
   box-sizing: border-box;
   margin: $main-margin;
-  padding: $main-padding;
-  min-width: $width-s;
+}
+
+@media (min-width: $width-s) {
+  .inner {
+    width: $width-s;
+    padding: $mobil-padding;
+  }
+}
+
+@media (min-width: $width-m) {
+  .inner {
+    width: $width-m;
+    padding: $tablet__padding;
+  }
+}
+
+@media (min-width: $width-l) {
+  .inner {
+    width: $width-l;
+    padding: $desktop__padding;
+  }
 }

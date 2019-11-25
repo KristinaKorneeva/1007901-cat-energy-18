@@ -1,8 +1,13 @@
+.nav {
+  width: 100%;
+}
+
 .nav__list {
+  text-align: center;
   list-style: none;
+
   margin: 0;
   padding: 0;
-  text-align: center;
 }
 
 .nav__item {
@@ -11,15 +16,16 @@
 }
 
 .nav__link {
+  display: block;
+
   font-size: $font-size_nav;
   line-height: $line-height_nav;
   font-weight: 500;
-
   text-transform: uppercase;
   color: $text_color_main;
-  display: block;
 
-  padding: 24px 0;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .nav__link:hover,
@@ -29,4 +35,29 @@
 
 .nav__link:active {
   opacity: 0.3;
+}
+
+@media (min-width: $width-m) {
+  .nav__list {
+    display: flex;
+  }
+
+  .nav__item {
+    border: none;
+  }
+
+  .nav__link {
+    font-weight: 400;
+    font-size: $font-size_nav-mobil;
+  }
+}
+
+@media (min-width: $width-l) {
+  .nav {
+    width: 50%;
+  }
+
+  .nav__link {
+    font-size: $font-size_nav;
+  }
 }

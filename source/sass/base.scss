@@ -22,4 +22,6 @@ body {
   font-weight: 400;
   font-size: $font-size_default;
   line-height: $line-height-default;
+
+  overflow-x: hidden;
 }

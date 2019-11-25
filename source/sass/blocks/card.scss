@@ -1,0 +1,11 @@
+@media (min-width: $width-m) {
+  .card__table {
+    text-align: center;
+
+    width: 100%;
+  }
+
+  .card__line {
+    border-bottom: $border_secondary;
+  }
+}

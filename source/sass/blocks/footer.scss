@@ -1,20 +1,19 @@
 .footer {
-  background-color: $secondary-color;
-  display: block;
   text-align: center;
 }
 
-.footer__map {
-  background: url("../img/bg-map-mobile@1x.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  height: 360px;
+.footer__wrapper {
+  background-color: $secondary-color;
 }
 
-.footer-logo {
-  padding-top: 39px;
-  padding-bottom: 31px;
+.footer__bottom {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__logo {
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .footer__logo:hover,
@@ -28,13 +27,14 @@
 
 .footer__social {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   list-style: none;
 
   border-top: $border_tertairy;
   border-bottom: $border_tertairy;
 
-  padding: 22px 0 22px 0;
+  padding-top: 22px;
+  padding-bottom: 22px;
   margin: 0;
 }
 
@@ -51,4 +51,23 @@
 
   padding-top: 22px;
   padding-bottom: 22px;
+}
+
+@media (min-width: $width-m) {
+  .footer__social {
+    border: none;
+  }
+
+  .footer__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+  }
+}
+
+@media (min-width: $width-l) {
+  .footer__map {
+    position: relative;
+  }
 }

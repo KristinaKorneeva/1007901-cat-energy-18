@@ -1,5 +1,52 @@
 .subject {
+  display: inline-block;
+  position: relative;
+
   color: $text_color_main;
   font-size: $font-size_subject;
   line-height: $line-height-subject;
+}
+
+.subject::before {
+  display: block;
+  position: absolute;
+  content: "";
+
+  background: $primary_color;
+
+  height: 3px;
+  width: 100vw;
+  right: 100%;
+  top: 14px;
+}
+
+.subject::after {
+  display: block;
+  position: absolute;
+  content: "";
+
+  background: $primary_color;
+
+  height: 3px;
+  width: 100vw;
+  left: 100%;
+  top: 14px;
+}
+
+@media (min-width: $width-s) {
+  .subject::before {
+    display: none;
+
+    margin-right: 40px;
+  }
+
+  .subject::after {
+    margin-left: 25px;
+  }
+}
+
+@media (min-width: $width-m) {
+  .subject::before {
+    display: block;
+  }
 }
