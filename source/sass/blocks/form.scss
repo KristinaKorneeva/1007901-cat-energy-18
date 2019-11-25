@@ -191,8 +191,9 @@
     margin-left: 80px;
   }
 
-  .form__list {
+  .form__list--checkbox {
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
   }
 
@@ -218,5 +219,9 @@
 
   .form__field {
     width: 45%;
+  }
+
+  .form__button {
+    width: 50%;
   }
 }
