@@ -22,7 +22,16 @@
     width: 100%;
   }
 
+  .card__wrapper {
+    display: block;
+  }
+
   .card__line {
     border-bottom: $border_secondary;
+  }
+
+  .card__title {
+    width: 130px;
+    padding-left: 55px;
   }
 }

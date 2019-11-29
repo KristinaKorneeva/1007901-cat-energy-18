@@ -4,3 +4,10 @@
   color: $text_color_main;
   text-transform: uppercase;
 }
+
+@media (min-width: $width-m) {
+  .heading {
+    font-size: $font-size_nav;
+    line-height: $line-height_nav;
+  }
+}

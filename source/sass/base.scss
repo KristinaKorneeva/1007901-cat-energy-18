@@ -25,3 +25,10 @@ body {
 
   overflow-x: hidden;
 }
+
+@media (min-width: $width-m) {
+  body {
+    font-size: $font-size_primary;
+    line-height: $line-height_primary;
+  }
+}

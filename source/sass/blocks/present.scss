@@ -7,7 +7,6 @@
 
   height: 289px;
   width: 100%;
-  margin-top: 40px;
 }
 
 .present__text {
@@ -17,6 +16,8 @@
   line-height: $line-height_nav;
 
   margin: 0;
+  width: 170px;
+  padding-left: 55px;
 }
 
 .present__logo {
@@ -36,8 +37,10 @@
 
 @media (min-width: $width-l) {
   .present {
-    width: 30%;
-
     display: block;
+
+    width: 252px;
+    height: 327px;
+    margin-top: 14px;
   }
 }

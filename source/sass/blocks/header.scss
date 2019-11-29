@@ -21,6 +21,14 @@
   border: none;
 }
 
+.header--nojs .header__icon--close {
+  display: none;
+}
+
+.header--nojs .header__nav {
+  display: none;
+}
+
 @media (min-width: $width-m) {
   .header {
     display: flex;

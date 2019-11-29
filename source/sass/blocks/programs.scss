@@ -36,6 +36,9 @@
 
 .programs__img {
   order: 2;
+
+  position: absolute;
+  top: 240px;
 }
 
 .programs__button {
@@ -64,10 +67,22 @@
 
   .programs__img {
     order: 3;
+
+    width: 600px;
+    height: 609px;
+    left: 12%;
+    top: 257px;
   }
 
   .programs__button {
     order: 2;
+
+    margin-top: 50px;
+  }
+
+  .programs__content {
+    width: 420px;
+    z-index: 2;
   }
 }
 
@@ -75,8 +90,8 @@
   .programs::after {
     display: block;
 
-    background-position: 100px 0;
-    background-size: auto 100%;
+    background-position: 245px 0;
+    background-size: 80% 100%;
 
     width: 50vw;
     height: 695px;
@@ -85,7 +100,14 @@
   }
 
   .programs__img {
-    right: 340px;
-    top: 30px;
+    left: 40%;
+    top: 77px;
+
+    width: 552px;
+    height: 499px;
+  }
+
+  .programs__content {
+    margin-top: 60px;
   }
 }

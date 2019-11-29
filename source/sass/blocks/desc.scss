@@ -1,3 +1,10 @@
 .desc {
   text-transform: uppercase;
 }
+
+@media (min-width: $width-m) {
+  .desc {
+    font-size: $font-size_nav;
+    line-height: $line-height_nav;
+  }
+}

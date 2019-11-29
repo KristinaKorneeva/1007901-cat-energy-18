@@ -142,7 +142,8 @@
   position: absolute;
   content: "";
 
-  background-image: url("../img/icon-tick.svg") no-repeat;
+  background-image: url("../img/icon-tick.svg");
+  background-repeat: no-repeat;
   opacity: 0;
 
   height: 30px;
