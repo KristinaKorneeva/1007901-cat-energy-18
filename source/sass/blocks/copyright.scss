@@ -11,6 +11,10 @@
   opacity: 0.6;
 }
 
+.copyright__link {
+  font-family: $font-family_secondary;
+}
+
 @media (min-width: $width-m) {
   .copyright__link {
     margin-right: 25px;

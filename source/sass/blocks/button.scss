@@ -1,4 +1,5 @@
 .button {
+  font-family: $font-family_primary;
   background-color: $primary-color;
   color: $text_color_light;
   font-size: $font-size_primary;
@@ -10,8 +11,8 @@
   box-sizing: border-box;
   display: block;
   width: 100%;
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .button:hover {

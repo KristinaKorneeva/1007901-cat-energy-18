@@ -1,10 +1,19 @@
 .form__title {
-  margin-bottom: 10px;
+  margin-bottom: 17px;
+}
+
+.form__instruction {
+  width: 230px;
+}
+
+.form__filling {
+  margin-top: 31px;
 }
 
 .form__item {
   border: none;
   padding: 0;
+  margin-top: 32px;
 }
 
 .form__field {
@@ -28,7 +37,7 @@
 
   border: $border_catalog;
 
-  padding: 10px;
+  padding: 13px;
 }
 
 .form__input:hover,
@@ -45,22 +54,30 @@
 }
 
 .form__label {
-  padding-right: 10px;
+  padding-right: 14px;
 }
 
 .form__item-radio {
   border: $border_catalog;
-  margin: 0 -20px;
+  margin-top: 7px;
+  margin-right: -20px;
+  margin-left: -20px;
+}
+
+.form__item-comment {
+  margin-top: 0;
 }
 
 .form__textarea {
   width: 100%;
-  padding: 15px;
+  padding: 11px;
+  margin-top: 30px;
 }
 
 .form__list {
   list-style: none;
   padding-left: 20px;
+  margin-bottom: 24px;
 }
 
 .form__label--radio {
@@ -69,8 +86,9 @@
   cursor: pointer;
   user-select: none;
 
-  padding-bottom: 13px;
-  padding-left: 30px;
+  padding-top: 13px;
+  padding-left: 44px;
+  margin-bottom: 12px;
 }
 
 .form__input--radio + .form__label--radio::before {
@@ -81,10 +99,10 @@
   border-radius: 50%;
   opacity: 0.7;
 
-  height: 18px;
-  width: 18px;
-  left: 0;
-  top: 0;
+  height: 30px;
+  width: 30px;
+  left: -3px;
+  top: 4px;
 }
 
 .form__input--radio + .form__label--radio::after {
@@ -97,8 +115,8 @@
 
   height: 12px;
   width: 12px;
-  left: 4px;
-  top: 4px;
+  left: 7px;
+  top: 13px;
 }
 
 .form__input--radio:checked + .form__label--radio::after {
@@ -120,7 +138,7 @@
   cursor: pointer;
   user-select: none;
 
-  padding-bottom: 35px;
+  padding-bottom: 24px;
   padding-left: 45px;
   margin: 0 -20px;
 }
@@ -132,10 +150,10 @@
   border: 1px solid $checked_color;
   opacity: 1;
 
-  height: 30px;
-  width: 30px;
-  top: -7px;
-  left: 0;
+  height: 28px;
+  width: 28px;
+  top: -5px;
+  left: -2px;
 }
 
 .form__input--checkbox + .form__label--checkbox::after {
@@ -148,7 +166,7 @@
 
   height: 30px;
   width: 30px;
-  left: 6px;
+  left: 1px;
 }
 
 .form__input--checkbox:checked + .form__label--checkbox::after {
@@ -224,5 +242,9 @@
 
   .form__button {
     width: 50%;
+  }
+
+  .form__instruction {
+    width: 325px;
   }
 }
