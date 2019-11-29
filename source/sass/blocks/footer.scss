@@ -53,6 +53,14 @@
   padding-bottom: 22px;
 }
 
+.footer__information {
+  background-color: $secondary-color;
+}
+
+.footer__information--main {
+  background-color: $text_color_light;
+}
+
 @media (min-width: $width-m) {
   .footer__social {
     border: none;

@@ -1,18 +1,20 @@
 .catalog {
-  margin-top: 30px;
+  margin-top: 38px;
 }
 
 .catalog__card {
   border: $border_catalog;
 
   margin: 0 -20px;
-  padding: 20px 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
 }
 
 .catalog__more {
   text-align: center;
   border: $border_catalog;
-  padding: 20px 13px;
+  padding: 26px 20px;
   margin: 0 -20px;
 }
 

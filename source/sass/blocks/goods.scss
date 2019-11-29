@@ -9,11 +9,16 @@
 .goods__item {
   border-bottom: $border_secondary;
   padding-bottom: 15px;
+  padding-top: 6px;
 }
 
 .goods__info {
   display: flex;
   justify-content: space-between;
+}
+
+.goods__name {
+  margin: 0;
 }
 
 .goods__button {
