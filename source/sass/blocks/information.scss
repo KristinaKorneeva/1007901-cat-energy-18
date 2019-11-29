@@ -12,3 +12,9 @@
 
   height: 360px;
 }
+
+@media (min-width: $width-m) {
+  .information__map {
+    height: 395px;
+  }
+}

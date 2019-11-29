@@ -35,10 +35,16 @@
 }
 
 @media (min-width: $width-s) {
+  .subject {
+    font-size: $font-size_heading;
+    line-height: $line-height_heading;
+    font-weight: 400;
+  }
+
   .subject::before {
     display: none;
 
-    margin-right: 40px;
+    margin-right: 0;
   }
 
   .subject::after {

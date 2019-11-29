@@ -12,8 +12,10 @@
 }
 
 .catalog__more {
+  box-sizing: border-box;
   text-align: center;
   border: $border_catalog;
+
   padding: 26px 20px;
   margin: 0 -20px;
 }
@@ -43,18 +45,26 @@
     justify-content: space-between;
     box-sizing: border-box;
 
-    margin-bottom: 55px;
+    margin-bottom: 31px;
   }
 
   .catalog__card {
     text-align: center;
     border: none;
     background-color: $secondary_color;
+
+    width: 40%;
+    min-height: 410px;
     margin: 0;
     margin-bottom: 30px;
+    margin-top: 115px;
   }
 
   .catalog__more {
-    margin: 0;
+    margin-top: 106px;
+    margin-bottom: 36px;
+
+    min-height: 410px;
+    width: 322px;
   }
 }
