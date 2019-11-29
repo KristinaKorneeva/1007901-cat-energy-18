@@ -37,7 +37,6 @@
 }
 
 @media (min-width: $width-m) {
-
   .nav__list {
     display: flex;
     justify-content: space-around;
@@ -54,6 +53,7 @@
 
   .nav__link--active {
     border-bottom: 2px solid $primary_color;
+    padding-bottom: 10px;
   }
 }
 

@@ -30,15 +30,19 @@
     background-color: $text_color_light;
 
     border-top: $border_main;
+    margin-top: -54px;
   }
 
   .example__wrapper-result {
     display: flex;
     justify-content: space-between;
+
+    margin-top: 75px;
   }
 
   .example__slider {
     background-color: $secondary_color;
+    margin-top: 236px;
   }
 }
 

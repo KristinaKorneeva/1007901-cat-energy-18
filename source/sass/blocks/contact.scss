@@ -20,9 +20,8 @@
 
 @media (min-width: $width-m) {
   .contact {
-    padding: 65px 0;
-
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 35px 38px;
   }
 
   .contact__address {
