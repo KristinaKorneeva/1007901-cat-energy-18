@@ -68,3 +68,10 @@
     width: 322px;
   }
 }
+
+@media (min-width: $width-l) {
+  .catalog__card {
+    width: 17%;
+    min-height: 431px;
+  }
+}

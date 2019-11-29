@@ -49,7 +49,8 @@
   .goods {
     width: 70%;
 
-    margin-right: 80px;
+    margin-right: 116px;
+    margin-top: 44px;
   }
 
   .goods__item {
@@ -58,10 +59,13 @@
 
     padding-right: 0;
     padding-left: 0;
-    padding-top: 15px;
+    padding-top: 8px;
+    width: 104%;
   }
 
   .goods__button {
-    width: 35%;
+    width: 27%;
+    padding-top: 7px;
+    padding-bottom: 7px;
   }
 }

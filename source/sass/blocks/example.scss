@@ -54,9 +54,15 @@
   .example__wrap {
     display: flex;
     justify-content: space-between;
+
+    margin-top: -192px;
   }
 
   .example__content {
     width: 30%;
+  }
+
+  .example__wrapper-result {
+    flex-direction: column;
   }
 }
