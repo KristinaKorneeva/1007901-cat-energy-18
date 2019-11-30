@@ -1,0 +1,29 @@
+@media (min-width: $width-l) {
+  .column {
+    padding: $desktop__padding;
+  }
+
+  .column:first-child {
+    padding-left: 0;
+  }
+
+  .column:last-child {
+    padding-right: 0;
+  }
+
+  .column--s {
+    width: 25%;
+  }
+
+  .column--m {
+    width: 50%;
+  }
+
+  .column--l {
+    width: 75%;
+  }
+
+  .column--xl {
+    width: 100%;
+  }
+}

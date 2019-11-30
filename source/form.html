@@ -33,7 +33,7 @@
           <form class="form__filling" method="POST" action="https://echo.htmlacademy.ru">
             <h3 class="visually-hidden">Фильтр</h3>
             <div class="form__info-cat">
-              <fieldset class="form__item">
+              <fieldset class="form__item column column--m">
                 <legend class="visually-hidden">Данные кота</legend>
                 <p class="form__field">
                   <label class="form__label heading" for="appointment-name">Имя:<sup>*</sup></label>
@@ -48,9 +48,9 @@
                   <input class="form__input heading" name="age" type="number" id="appointment-age" placeholder="7">
                 </p>
               </fieldset>
-              <fieldset class="form__item form__item-radio">
+              <fieldset class="form__item column column--m">
                 <legend class="visually-hidden">Ожидаемый результат</legend>
-                <ul class="form__list">
+                <ul class="form__list form__item-radio">
                   <li class="form__list-item">
                     <input class="visually-hidden form__input--radio" name="greed" type="radio" id="slimming" value="1" checked>
                     <label class="form__label--radio heading" for="slimming"> Похудение</label>
@@ -69,11 +69,11 @@
             <fieldset class="form__item">
                 <legend class="form__title subject">Контактные данные (владельца кота)</legend>
                 <div class="form__item-data">
-                <p class="form__field">
+                <p class="form__field column column--m">
                   <label class="form__label heading" for="appointment-email">E-mail:<sup>*</sup></label>
                   <input class="form__input form__input--icon-mail heading" name="email" type="email" id="appointment-email" placeholder="kuklachev@gmail.com">
                 </p>
-                <p class="form__field">
+                <p class="form__field column column--m">
                   <label class="form__label heading" for="appointment-phone">Телефон:<sup>*</sup></label>
                   <input class="form__input form__input--icon-tel heading" name="phone" type="tel" id="appointment-phone" placeholder="8 (960) 900-60-90">
                 </p>

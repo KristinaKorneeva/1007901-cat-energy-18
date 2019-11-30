@@ -29,13 +29,6 @@
 
 .slider__range {
   position: relative;
-
-  background-color: $text_color_light;
-  border: $border_tertairy;
-  border-radius: 7px;
-
-  height: 14px;
-  min-width: 82px;
 }
 
 .slider__range::before {

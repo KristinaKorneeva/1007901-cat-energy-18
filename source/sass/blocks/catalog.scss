@@ -17,7 +17,6 @@
   border: $border_catalog;
 
   padding: 26px 20px;
-  margin: 0 -20px;
 }
 
 .catalog__icon {
@@ -61,11 +60,8 @@
   }
 
   .catalog__more {
-    margin-top: 106px;
-    margin-bottom: 36px;
-
-    min-height: 410px;
-    width: 322px;
+    background-color: $text_color_light;
+    border: $border_catalog;
   }
 }
 
