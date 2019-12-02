@@ -27,12 +27,12 @@
   padding-bottom: 24px;
 }
 
-.nav__link:hover,
-.nav__link:focus {
+.nav__link[href]:hover,
+.nav__link[href]:focus {
   opacity: 0.6;
 }
 
-.nav__link:active {
+.nav__link[href]:active {
   opacity: 0.3;
 }
 
