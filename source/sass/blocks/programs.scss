@@ -42,7 +42,11 @@
 }
 
 .programs__button {
+  position: absolute;
   order: 3;
+
+  top: 432px;
+  width: 280px;
 }
 
 @media (min-width: $width-m) {
@@ -78,6 +82,7 @@
     order: 2;
 
     margin-top: 50px;
+    position: initial;
   }
 
   .programs__content {

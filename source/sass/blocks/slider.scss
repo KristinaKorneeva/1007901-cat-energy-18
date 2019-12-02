@@ -29,6 +29,11 @@
 
 .slider__range {
   position: relative;
+  background-color: $text_color_light;
+  border: $border_secondary;
+  border-radius: 10px;
+  width: 85px;
+  height: 14px;
 }
 
 .slider__range::before {
@@ -47,6 +52,7 @@
 @media (min-width: $width-m) {
   .slider__range {
     border: none;
+    background-color: transparent;
     min-width: 428px;
   }
 
