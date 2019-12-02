@@ -1,0 +1,23 @@
+.logo__tablet {
+  display: none;
+}
+
+
+@media (min-width: $width-m) {
+  .logo__tablet {
+    display: block;
+  }
+
+  .logo__mobile {
+    display: none;
+  }
+
+  .logo__tablet:hover,
+  .logo__tablet:focus {
+    opacity: 0.8;
+  }
+
+  .logo__tablet:active {
+    opacity: 0.6;
+  }
+}

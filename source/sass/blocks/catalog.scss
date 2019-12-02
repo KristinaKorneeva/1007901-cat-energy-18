@@ -1,19 +1,22 @@
 .catalog {
-  margin-top: 30px;
+  margin-top: 38px;
 }
 
 .catalog__card {
   border: $border_catalog;
 
   margin: 0 -20px;
-  padding: 20px 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
 }
 
 .catalog__more {
+  box-sizing: border-box;
   text-align: center;
   border: $border_catalog;
-  padding: 20px 13px;
-  margin: 0 -20px;
+
+  padding: 26px 20px;
 }
 
 .catalog__icon {
@@ -41,18 +44,30 @@
     justify-content: space-between;
     box-sizing: border-box;
 
-    margin-bottom: 55px;
+    margin-bottom: 31px;
   }
 
   .catalog__card {
     text-align: center;
     border: none;
     background-color: $secondary_color;
+
+    width: 40%;
+    min-height: 410px;
     margin: 0;
     margin-bottom: 30px;
+    margin-top: 115px;
   }
 
   .catalog__more {
-    margin: 0;
+    background-color: $text_color_light;
+    border: $border_catalog;
+  }
+}
+
+@media (min-width: $width-l) {
+  .catalog__card {
+    width: 17%;
+    min-height: 431px;
   }
 }

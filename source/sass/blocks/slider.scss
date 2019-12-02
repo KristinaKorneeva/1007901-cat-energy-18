@@ -1,10 +1,16 @@
-.slider__image:nth-child(2) {
+.slider__image {
+  padding-top: 15px;
+}
+
+.slider__image--after {
   display: none;
 }
 
 .slider__control {
   display: flex;
   justify-content: center;
+
+  margin-top: 31px;
 }
 
 .slider__input {
@@ -23,15 +29,11 @@
 
 .slider__range {
   position: relative;
-
   background-color: $text_color_light;
-  border: $border_tertairy;
+  border: $border_secondary;
   border-radius: 10px;
-
+  width: 85px;
   height: 14px;
-  min-width: 84px;
-  margin-left: 19px;
-  margin-right: 19px;
 }
 
 .slider__range::before {
@@ -50,6 +52,7 @@
 @media (min-width: $width-m) {
   .slider__range {
     border: none;
+    background-color: transparent;
     min-width: 428px;
   }
 

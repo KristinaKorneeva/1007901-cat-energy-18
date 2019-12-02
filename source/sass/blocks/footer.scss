@@ -12,7 +12,7 @@
 }
 
 .footer__logo {
-  margin-top: 30px;
+  margin-top: 40px;
   margin-bottom: 30px;
 }
 
@@ -34,7 +34,7 @@
   border-bottom: $border_tertairy;
 
   padding-top: 22px;
-  padding-bottom: 22px;
+  padding-bottom: 17px;
   margin: 0;
 }
 
@@ -51,6 +51,14 @@
 
   padding-top: 22px;
   padding-bottom: 22px;
+}
+
+.footer__information {
+  background-color: $secondary-color;
+}
+
+.footer__information--main {
+  background-color: $text_color_light;
 }
 
 @media (min-width: $width-m) {

@@ -1,9 +1,16 @@
+@media (min-width: $width-m) {
+  .categores {
+    margin-top: 494px;
+  }
+}
+
+
 @media (min-width: $width-l) {
   .categores {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 
-    margin-top: 155px;
+    margin-top: 256px;
   }
 }

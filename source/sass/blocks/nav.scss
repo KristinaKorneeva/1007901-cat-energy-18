@@ -12,7 +12,6 @@
 
 .nav__item {
   border-top: $border-main;
-  width: 100%;
 }
 
 .nav__link {
@@ -28,18 +27,19 @@
   padding-bottom: 24px;
 }
 
-.nav__link:hover,
-.nav__link:focus {
+.nav__link[href]:hover,
+.nav__link[href]:focus {
   opacity: 0.6;
 }
 
-.nav__link:active {
+.nav__link[href]:active {
   opacity: 0.3;
 }
 
 @media (min-width: $width-m) {
   .nav__list {
     display: flex;
+    justify-content: space-around;
   }
 
   .nav__item {
@@ -50,6 +50,11 @@
     font-weight: 400;
     font-size: $font-size_nav-mobil;
   }
+
+  .nav__link--active {
+    border-bottom: 2px solid $primary_color;
+    padding-bottom: 10px;
+  }
 }
 
 @media (min-width: $width-l) {
@@ -59,5 +64,17 @@
 
   .nav__link {
     font-size: $font-size_nav;
+  }
+
+  .nav__link--active {
+    border-bottom: 2px solid $primary_color;
+  }
+
+  .nav__link-desc {
+    color: $text_color_light;
+  }
+
+  .nav__link-act {
+    border-bottom: 2px solid $text_color_light;
   }
 }
