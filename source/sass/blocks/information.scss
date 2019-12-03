@@ -11,10 +11,29 @@
   background-size: cover;
 
   height: 360px;
+
+  @media (min-resolution: $retina-dppx) {
+    background-image: url("../img/bg-map-mobile@2x.png");
+  }
 }
 
 @media (min-width: $width-m) {
   .information__map {
     height: 395px;
+    background-image: url("../img/bg-map-tablet@1x.png");
+
+    @media (min-resolution: $retina-dppx) {
+      background-image: url("../img/bg-map-tablet@2x.png");
+    }
+  }
+}
+
+@media (min-width: $width-l) {
+  .information__map {
+    background-image: url("../img/bg-map-desktop@1x.png");
+
+    @media (min-resolution: $retina-dppx) {
+      background-image: url("../img/bg-map-desktop@2x.png");
+    }
   }
 }
