@@ -23,6 +23,10 @@
   height: 100%;
   top: 0;
   right: 0;
+
+  @media (min-resolution: $retina-dppx) {
+    background-image: url("../img/index-background-mobile@2x.jpg");
+  }
 }
 
 .programs__wrapper {
@@ -96,13 +100,20 @@
   .programs::after {
     display: block;
 
-    background-position: 245px 0;
-    background-size: 80% 100%;
+    background-image: url("../img/index-background-desktop@1x.jpg");
+    background-position: 0 45px;
+    background-size: 100%;
 
     width: 50vw;
     height: 695px;
     top: -117px;
     right: 0;
+
+    @media (min-resolution: $retina-dppx) {
+      background-image: url("../img/index-background-desktop@2x.jpg");
+      background-position: 0 45px;
+      background-size: 100%;
+    }
   }
 
   .programs__img {
