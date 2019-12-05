@@ -1,5 +1,19 @@
-.slider__image {
-  padding-top: 15px;
+.slider {
+  position: relative;
+}
+
+.slider__image--before {
+  position: absolute;
+  background-image: url("../img/before-mobile@1x.png");
+  background-color: $secondary_color;
+  background-repeat: no-repeat;
+  width: 311px;
+  height: 232px;
+
+  @media (min-resolution: $retina-dppx) {
+    background-image: url("../img/before-mobile@2x.png");
+    background-size: cover;
+  }
 }
 
 .slider__image--after {
@@ -11,6 +25,7 @@
   justify-content: center;
 
   margin-top: 31px;
+  padding-top: 254px;
 }
 
 .slider__input {
@@ -50,6 +65,29 @@
 }
 
 @media (min-width: $width-m) {
+  .slider__image--before {
+    background-image: url("../img/before-tablet@1x.png");
+    width: 50%;
+    height: 499px;
+    margin-left: 22px;
+
+    @media (min-resolution: $retina-dppx) {
+      background-image: url("../img/before-tablet@2x.png");
+    }
+  }
+
+  .slider__image--after {
+    display: block;
+    width: 596px;
+    height: 517px;
+    margin-left: 67px;
+  }
+
+  .slider__control {
+    padding-top: 0;
+    padding-bottom: 80px;
+  }
+
   .slider__range {
     border: none;
     background-color: transparent;
@@ -68,5 +106,22 @@
 
   .slider__range::before {
     display: none;
+  }
+}
+
+@media (min-width: $width-l) {
+  .slider__image--before {
+    background-image: url("../img/before-desktop@1x.png");
+    margin-left: -31px;
+    padding-left: 65px;
+
+    @media (min-resolution: $retina-dppx) {
+      background-image: url("../img/before-desktop@2x.png");
+    }
+  }
+
+  .slider__image--after {
+    width: 542px;
+    margin-left: 50px;
   }
 }
