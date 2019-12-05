@@ -113,7 +113,6 @@
   .slider__image--before {
     background-image: url("../img/before-desktop@1x.png");
     margin-left: -31px;
-    padding-left: 65px;
 
     @media (min-resolution: $retina-dppx) {
       background-image: url("../img/before-desktop@2x.png");
@@ -122,6 +121,7 @@
 
   .slider__image--after {
     width: 542px;
-    margin-left: 50px;
+    margin-left: 51px;
+    padding-right: 126px;
   }
 }
