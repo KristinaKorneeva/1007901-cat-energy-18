@@ -7,6 +7,10 @@
 
   height: 289px;
   width: 100%;
+
+  @media (min-resolution: $retina-dppx) {
+    background-image: url("../img/gift-photo-mobile@2x.jpg");
+  }
 }
 
 .present__text {
@@ -31,19 +35,29 @@
     justify-content: space-around;
     align-items: center;
 
+    background-image: url("source/img/gift-photo-tablet@1x.jpg");
     background-position: center;
 
     height: 200px;
     margin-top: 65px;
+
+    @media (min-resolution: $retina-dppx) {
+      background-image: url("../img/gift-photo-tablet@2x.jpg");
+    }
   }
 }
 
 @media (min-width: $width-l) {
   .present {
     display: block;
+    background-image: url("source/img/gift-photo-desktop@1x.jpg");
 
     width: 249px;
     height: 288px;
     margin-top: 41px;
+
+    @media (min-resolution: $retina-dppx) {
+      background-image: url("../img/gift-photo-desktop@2x.jpg");
+    }
   }
 }

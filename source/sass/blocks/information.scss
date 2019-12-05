@@ -17,6 +17,18 @@
   }
 }
 
+.information__map::after {
+  content: "";
+  position: absolute;
+
+  background-image: url("../img/map-pin.png");
+  background-size: cover;
+  top: 158px;
+  left: 128px;
+  width: 55px;
+  height: 53px;
+}
+
 @media (min-width: $width-m) {
   .information__map {
     height: 395px;
@@ -25,6 +37,13 @@
     @media (min-resolution: $retina-dppx) {
       background-image: url("../img/bg-map-tablet@2x.png");
     }
+  }
+
+  .information__map::after {
+    top: 149px;
+    left: 338px;
+    width: 113px;
+    height: 106px;
   }
 }
 
@@ -35,5 +54,10 @@
     @media (min-resolution: $retina-dppx) {
       background-image: url("../img/bg-map-desktop@2x.png");
     }
+  }
+
+  .information__map::after {
+    top: 154px;
+    left: 1109px;
   }
 }

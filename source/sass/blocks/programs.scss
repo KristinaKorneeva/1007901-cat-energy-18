@@ -43,7 +43,8 @@
 
   position: absolute;
   top: 167px;
-  left: 137px;
+  left: 50%;
+  margin-left: -140px;
 }
 
 .programs__button {
@@ -80,7 +81,9 @@
 
     width: 600px;
     height: 609px;
+    left: 50%;
     margin-top: 85px;
+    margin-left: -300px;
   }
 
   .programs__button {
@@ -117,10 +120,11 @@
   }
 
   .programs__img {
-    left: 38%;
+    left: 50%;
     top: -53px;
     width: 552px;
     height: 499px;
+    margin-left: -190px;
   }
 
   .programs__content {
