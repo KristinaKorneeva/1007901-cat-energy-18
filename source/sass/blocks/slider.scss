@@ -71,6 +71,7 @@
 .slider__range [type="range"] {
   appearance: none;
   background: transparent;
+  opacity: 0;
 }
 
 .slider__range [type="range"]::-webkit-slider-thumb {
@@ -142,6 +143,7 @@
     appearance: none;
     width: 100%;
     margin: 10.5px 0;
+    opacity: 1;
   }
 
   .slider__range [type="range"]:focus {
