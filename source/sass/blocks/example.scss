@@ -45,7 +45,6 @@
   .example {
     background-color: $text_color_light;
 
-    border-top: $border_main;
     margin-top: -54px;
   }
 
@@ -56,9 +55,8 @@
     margin-top: 75px;
   }
 
-  .example__slider {
-    background-color: $secondary_color;
-    margin-top: 236px;
+  .example__content {
+    margin-bottom: 236px;
   }
 
   .example__discription {
