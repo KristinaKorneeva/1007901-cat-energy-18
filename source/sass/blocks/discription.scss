@@ -35,6 +35,10 @@
 }
 
 @media (min-width: $width-m) {
+  .discription {
+    margin-bottom: 600px;
+  }
+
   .discription__list {
     display: flex;
     flex-wrap: wrap;

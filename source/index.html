@@ -34,7 +34,11 @@
             <p class="programs__text desc">Занялся собой? Займись котом!</p>
             <a class="programs__button button" href="form.html">Подобрать программу</a>
           </div>
-          <img class="programs__img" src="./img/index-can-mobile@1x.png" width="280" height="270" alt="">
+          <picture>
+            <source media="(min-width: 1300px)" srcset="./img/index-can-desktop@1x.png 1x, ./img/index-can-desktop@2x.png 2x">
+            <source media="(min-width: 768px)" srcset="./img/index-can-tablet@1x.jpg 1x, ./img/index-can-tablet@2x.jpg 2x">
+            <img class="programs__img" src="./img/index-can-mobile@1x.png" srcset="./img/index-can-mobile@2x.png 2x" width="280" height="270" alt="Пример товара">
+          </picture>
         </div>
       </article>
       <section class="categores inner">
@@ -114,15 +118,24 @@
           </div>
           <div class="example__slider slider">
             <div class="slider__wrapper-image">
-              <img class="slider__image slider__image--before" src="./img/before-mobile@1x.png" width="311" height="232" alt="Кот до">
-              <img class="slider__image slider__image--after" src="./img/after-mobile@1x.png" alt="Кот после">
+              <picture>
+                <source media="(min-width: 1300px)" srcset="./img/after-desktop@1x.png 1x, ./img/after-desktop@2x.png 2x">
+                <source media="(min-width: 768px)" srcset="./img/after-tablet@1x.png 1x, ./img/after-tablet@2x.png 2x">
+                <img class="slider__image--after" src="./img/after-mobile@1x.png" srcset="./img/after-mobile@2x.png 2x" alt="Кот после">
+              </picture>
+              <div class="slider__image--before">
+                <!--кот-->
+              </div>
             </div>
             <div class="slider__control">
-              <button class="slider__button">было</button>
+              <button class="slider__button slider__button--before">было</button>
               <div class="slider__range">
-                <input class="slider__input" type="range" min="0" max="10" value="5" step="1">
+                <div class="slider__thumb">
+                  <div class="slider__thumb--inside"></div>
+                </div>
+                <input class="slider__input" type="range" min="0" max="100" value="50" step="1">
               </div>
-              <button class="slider__button">стало</button>
+              <button class="slider__button slider__button--after">стало</button>
             </div>
           </div>
         </div>
@@ -172,5 +185,6 @@
       </div>
     </footer>
     <script src="./js/mobil.js"></script>
+    <script src="./js/slider.js"></script>
   </body>
 </html>

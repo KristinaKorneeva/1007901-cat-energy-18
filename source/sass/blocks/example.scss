@@ -1,7 +1,6 @@
 .example {
   background: $secondary-color;
 
-  padding-bottom: 40px;
   padding-top: 1px;
 }
 
@@ -33,6 +32,7 @@
 .example__discription {
   position: absolute;
   background-color: $secondary-color;
+  border: none;
   top: 54px;
   left: 22px;
   width: 50px;
@@ -42,10 +42,13 @@
 
 @media (min-width: $width-m) {
   .example {
-    background-color: $text_color_light;
+    background-color: $secondary-color;
+  }
 
-    border-top: $border_main;
-    margin-top: -54px;
+  .example__wrap {
+    margin-top: -601px;
+
+    border-top: $border_secondary;
   }
 
   .example__wrapper-result {
@@ -53,11 +56,6 @@
     justify-content: space-between;
 
     margin-top: 75px;
-  }
-
-  .example__slider {
-    background-color: $secondary_color;
-    margin-top: 236px;
   }
 
   .example__discription {
@@ -83,11 +81,16 @@
     display: flex;
     justify-content: space-between;
 
-    margin-top: -134px;
+    margin-top: -180px;
+    border: none;
+  }
+
+  .example__title {
+    margin-bottom: 174px;
   }
 
   .example__content {
-    width: 30%;
+    width: 35%;
   }
 
   .example__wrapper-result {
