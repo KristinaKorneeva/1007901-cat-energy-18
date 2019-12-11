@@ -49,11 +49,35 @@
 }
 
 .category__link {
-  display: block;
+  display: flex;
+  align-items: center;
 
   border-top: $border_tertairy;
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+.category__link--arrow {
+  margin-left: 20px;
+}
+
+.category__link--arrow-verylong {
+  display: none;
+}
+
+.category__link:hover .category__link--arrow,
+.category__link:focus .category__link--arrow {
+  display: none;
+}
+
+.category__link:hover .category__link--arrow-verylong,
+.category__link:focus .category__link--arrow-verylong {
+  display: block;
+  margin-left: 20px;
+}
+
+.category__link:active {
+  opacity: 0.3;
 }
 
 .category__wrapper {
