@@ -103,7 +103,7 @@
     right: 0;
     left: 0;
     bottom: 0;
-    background: linear-gradient(to bottom, #ffffff 166px, #f2f2f2 166px);
+    background: linear-gradient(to bottom, #ffffff 168px, #f2f2f2 168px);
     z-index: -1;
   }
 
@@ -129,6 +129,15 @@
 
   .slider__button {
     border-bottom: $border_catalog-dotted;
+  }
+
+  .slider__button:hover,
+  .slider__button:focus {
+    border-bottom: $border_catalog-solid;
+  }
+
+  .slider__button:active {
+    border-bottom: none;
   }
 
   .slider__input {
@@ -159,8 +168,8 @@
   }
 
   .slider__range [type="range"]::-webkit-slider-thumb {
-    box-shadow: 1px 1px 2px 2px $radio_color, inset 0 0 0 8px $text_color_light;
-    border: 1px solid $secondary_color;
+    box-shadow: 0 0 2px 2px $radio_color, inset 0 0 0 8px $text_color_light;
+    border: 1px solid $radio_color;
     height: 26px;
     width: 26px;
     border-radius: 50%;
@@ -179,7 +188,7 @@
   }
 
   .slider__range [type="range"]::-moz-range-thumb {
-    box-shadow: 1px 1px 2px 2px $radio_color, inset 0 0 0 8px $text_color_light;
+    box-shadow: 0 0 2px 2px $radio_color, inset 0 0 0 8px $text_color_light;
     border: 1px solid $secondary_color;
     height: 26px;
     width: 26px;
@@ -211,7 +220,7 @@
   }
 
   .slider__range [type="range"]::-ms-thumb {
-    box-shadow: 1px 1px 2px 2px $radio_color, inset 0 0 0 8px $text_color_light;
+    box-shadow: 0 0 2px 2px $radio_color, inset 0 0 0 8px $text_color_light;
     border: 1px solid $secondary_color;
     height: 26px;
     width: 26px;
@@ -220,6 +229,17 @@
     cursor: pointer;
     appearance: none;
     margin-top: -10.5px;
+  }
+
+  .slider__range [type="range"]:hover::-webkit-slider-thumb,
+  .slider__range [type="range"]:focus::-webkit-slider-thumb {
+    box-shadow: 0 0 2px 2px $checked_color, inset 0 0 0 8px $text_color_light;
+    border: 1px solid $checked_color;
+  }
+
+  .slider__range [type="range"]:active::-webkit-slider-thumb {
+    box-shadow: 0 0 2px 2px $primary_color, inset 0 0 0 8px $text_color_light;
+    border: 1px solid $primary_color;
   }
 }
 
@@ -239,6 +259,6 @@
 
   .slider__image--before::before {
     content: "";
-    background: linear-gradient(to bottom, #ffffff 178px, #f2f2f2 178px);
+    background: linear-gradient(to bottom, #ffffff 179px, #f2f2f2 179px);
   }
 }
