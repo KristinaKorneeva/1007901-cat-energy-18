@@ -14,3 +14,20 @@
 .social__link:active {
   opacity: 0.6;
 }
+
+@media (min-width: $width-m) {
+  .social__link--vk {
+    width: 30px;
+    height: 16px;
+  }
+
+  .social__link--insta {
+    width: 23px;
+    height: 23px;
+  }
+
+  .social__link--fb {
+    width: 14px;
+    height: 28px;
+  }
+}
