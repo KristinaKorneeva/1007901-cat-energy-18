@@ -75,25 +75,33 @@
         <ul class="discription__list">
           <li class="discription__item">
             <span class="discription__image">
-              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="32" viewBox="0 0 26 29"><image width="26" height="29" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAdCAYAAAC0T3x2AAAC/klEQVRIia2WT4iOURTGf8OIwQwG+U9WGLEgRgqlFIViYWOKxaTYWJCyUKxsLOwUCykphBBSiiiJJkWU//kzJgwZhsGYeXSn56v7ve/9PjPx1Pne+97znHPuve85534VkvgH1ACLLHVALTDYMhAYYNevKvsYIzhYAzQAk4CRwGigf45ZDPU20EJgNzAdGJ9w3AG0Ad+Ar0C3uWFhrcBewtGVkcWSmiR9UTFaJT2QdEHSTklzJA2N/Bw0u1PSrp7PUyJIjaRzkj5H7tsk3ZO0W9LkhE1BKiU9tU3gV5QKNEvSkyjAJ0lXJc1NcFOyQtIv2+4o6LPEeZKaTery8SxIOCsnJ2zfImlYKtAkSa9M+m6DAWUclpI79tEU6/s5ayqAs07ZH8BRYB3Qmcu/v6PWjJaYWQi0FZjp8XVgUwl3Q4BzwANgWk4Lo4Bqjx8VaZwVj7zdF8641LHURbyAPQnOTEnt1m+MdeFnuaQOK/cljIMskfQmCvJQ0tgSvAKWZQOdtOKtpNEJ42Dw3pywoPOSBiV4QVaa91tSfTYZpvoU3wAfEq3niPtZO3AYWOWESWG4535lOf3cgQM+ZQzHAcf8DD3sILAl4TzGeI9/uvcVBary+F00H5rmRWAK8Bs4DmzLuc1jomfCbj5mA3VHqyjgADDb45tAY85lGnWebXcXLwpUwAg/64G11j0DVocqSLotRn+fQMD7rDI4++5xtd8P+UILZ7w5e9ZlsCEKdClHk3Qr6k3bJf30++lE+paSodHVEPpldZYXfk5FhGcev5Y0soTTrAyRdDvq+PsTnJ5AjdFtGIjdZTpEVpZm2lKTL74cF6+8JSI/l1SVItvJDN+yd33rFnBfUm3Cpkcqne+hK4z1Z7vsyr4GjPFcKIFK/9moiYo84LO566PEysMRr0X9LuxwgqSPKo0uf8dwxc9P7SC1o6qo3z2OKjq0nzmujwoXdJCXwHngiltT7yBpgxMgSENqNf9DQoGu9IqbgTO9XmEfEQJd8P1+o09H0RcAfwBRZwYJsyw/6gAAAABJRU5ErkJggg=="/></svg>
+              <picture>
+                <img src="./img/advantage-leaf@1x.png" srcset="./img/advantage-leaf@2x.png 2x" width="50px" height="50px" alt="Иконка лист">
+              </picture>
             </span>
             <p class="discription__text text">Функциональное питание содержит только полезные питательные вещества.</p>
           </li>
           <li class="discription__item">
             <span class="discription__image">
-              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="32" viewBox="0 0 29 31"><image width="29" height="31" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAfCAYAAAAbW8YEAAADD0lEQVRIibWXXWiOYRjHf3u95iPmFVEbke8IB5Qzak05sFIcSEtKCeVEDpyslBNNWhxIEUcixZGcKEJoPvKRZZv5/tibtcnYprH9dXG99m7P/bx79+FfV+15nuu9//d1Xff1v+4hKR/bKqlW0gdJ9ZIO5Pm7oAVf9rNySV8kfXPCFkmdkioDviNGekdSu6Td/rxGUrOkuoBvXlbwhzk3ngHjgLlZXveAmcAcoDPnrwNIRF9F0AFMBVb7hxKgGGgfCiF5kp4DCoELwB3grpNej3jmizzrcFTSRz9AaUkXJY0O+OVd02NAAbBngH1O9Lq+B1oiX/PDSaDHSD9ZwMBC4PuQUzYwioA6CzDpde0GksNYcDmwyTdueAKcBd5k+SQ8uAReI6tXKpT/AWy9pKcuHP1hglIjaYWvkXKetKU37ZEuAcYDn4FfkVj6ws7AcWCLp60ZeAd8BUZ7i832/m4FTgCHgVpgVHakpq+tkh5Imp4jwiJJNyR1Sfoh6aqkkoBfmaRHkn5K6pBUkYk0m3Sd66rhraSDkiZkLTJJ0j5JDe7T5q0U2ljGEpLO+HqlIVLL+QZ3MPTYyZb0womaJHX7N3u/M0CSy1JxpPY8RdJ5SS89mgwslW9cGHKlP87+kYbaxBp/85+CwwJgGTAWeA489EM3LOTSXpsgVcAuUxGfLMMmJIcgTAauATP8eZW3wumIZy+KvDUWAT99QByJePFX8EPisD/S6tLdmFqZJSU97udvw6E6y+dfTePSWxh581cQ4rAdWAp8APa6BBo2uuD0QRypTYN01nMXcCni1YtSX6sGqAYqgNfANGBef+e4mjYB5V6TMU5YFfHqxTv/az4wAVjsUtjuEtkXMTUdrBW7YMivqRlluzWYmg4WNpN3AI1+im2E3QY2hNaJS+9QcBm44oLS5hsJIum7KhyhDfT47SCEpKucEn7FTAFlAceRxFpgih0uY29wyTvkl6/7/4FwJVDp0TbazcFu6jd90luqf/wHUms7y+oru7Rn/q2YBZzyRraJkkt9hgILpB7YBjT9BmM1iyx1PXaAAAAAAElFTkSuQmCC"/></svg>
+              <picture>
+                <img src="./img/advantage-powder@1x.png" srcset="./img/advantage-powder@2x.png 2x" width="50px" height="50px" alt="Иконка вода">
+              </picture>
             </span>
             <p class="discription__text text">Выпускается в виде порошка, который нужно лишь залить кипятком и готово.</p>
           </li>
           <li class="discription__item">
             <span class="discription__image">
-              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="32" viewBox="0 0 23 30"><image width="23" height="30" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAeCAYAAADHJYVoAAABgElEQVRIie3Vu2tVQRDH8Y8XjUEQY/CBpBAiSaEhEFFR/wJLK+PfIFiLIFqkCSks/APs7QJpUqYKIZWgoKDYRPCB5IovEB8TNpkLF3Nu4JJzsMkPFnbYme+Zs7OzKyLeRMRyRJT5uYhYj4jZtO9ERDsiLqfda8xFxIeuuM3RwiGctKUxHMWltC9iCOftrAs4gVu41vFs7RjSvwbwsCn4dxzPHagd/gfHMN0EfBG/cL0J+BLaWdxN+F8MYv82V04h8H7bSrXW8Q0HS2yBf8Ewbv/jfhpn8AmrlahqlcyPYLLAH+Q+3cPddB/Hcv5eAb+txFTreWY+VeBP8Ci3p9M8I9k8K7hRieitp7lytlPQkvUVLKT9DjdxFT96Yqr1Ar8x2n1aXuNxzl92fahfreErDtd9FOWJKTU80AS8nfUbaAL+M6+BRjKXmbequnI3msBn7CsdXzd8pmv+sW74s7wuilbrht/HfMdoqqB78N7ag/9/+Ku8Mvt5kIuKf4kr8VvCBtvRhkpziMZaAAAAAElFTkSuQmCC"/></svg>
+              <picture>
+                <img src="./img/advantage-dining@1x.png" srcset="./img/advantage-dining@2x.png 2x" width="50px" height="50px" alt="Иконка еда">
+              </picture>
             </span>
             <p class="discription__text text">Замените один-два приема обычной еды на наше функциональное питание.</p>
           </li>
           <li class="discription__item">
             <span class="discription__image">
-              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="32" viewBox="0 0 26 31"><image width="26" height="31" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAfCAYAAAD5h919AAAC6klEQVRIib1WTUiVQRQ9PvXpC8ukNplCUrgzTBIXRRFGJLQogghaqZltpJW4sLXLINrVoo1QQUSL2mUaJCUUGa2KROgXMuEJCqbWies7U8N883xPpC7cxXfn3HPm535zByRDv8+N22TIm8J/shJTK8IaABwA0AhgAEAawDUALwCMA5gqSBHZOudpkhdIvipiI1+T7FVOjCvvio4AuAFgt74XATwB8AbAF8VqATQBOAQgo9g0gB4AIwnGiPogyV+a6TTJiySrIjjnVcJMeyu8HOLCpCEPfJVkJkLcLC8N4hnlOBvKJ9TtgXojAs6dbQ3iTrjHw3SHQrtILmhwQLEWkk1FCrWSfEdyn74HhFkQ9x+hWxoYIWkFsofkDMk5L3ktoYeK3dV3ibgo7lWhepIrCjYLWE1yjOQEyU1FCFlBXAmwe4Uz7noL9Hur8QkrJFjsGcX8kbD9dgW1q9LvBZX/A8Bc4n9YnznO9pR+OrNn/+DWc5xNdmjuatgOoBzAbQDzAE4k0nLm8DUAsolR4AGAKgBnASwBmLVgmQf4CWAzgMMFtmxGRIuJkZwdBFANoNLHlGn2lrgFwDcApwAsJ9L/WiuAijWEzmlnjGubYvNQkzLriFTNRr3D3e5WDBNSPZqY28bNcT431eNS/RrpJzXrWNHpYFfS4lzdLXcZflCgzwMeIzlP8kyENPT9JJdILpNs01ifOI271CV0Kpgl2aDYdcWGI8Shl5G8KWyJOLLK7/Qv1RTJUQ1M6uqxhPOR7RyTh83Q8OXKdQU26tqHD6wl+UkAeyfURWZe6K6r894YxrUz1vig9vBZwFmSXZFOelJeHjS9LuW4wmrM12Gd7yD51Jv5lN4RLcE2ptWrBoVxNi4OFBJyZ3aJSbPe8l2+khjNPUpSEb68QtbAHivZuuwdkh8TtLnYsHe2b/OdbSIQEWnzxjIiMq8MztY9t97HxGJCNsOYSCE3chMxe6lyX1PIZmfA9Yj45Z3MJfEbLveT/6rev04AAAAASUVORK5CYII="/></svg>
+              <picture>
+                <img src="./img/advantage-clock@1x.png" srcset="./img/advantage-clock@2x.png 2x" width="50px" height="50px" alt="Иконка время">
+              </picture>
             </span>
             <p class="discription__text text">Уже через месяц наслаждайтесь изменениями к лучшему вашего питомца!</p>
           </li>
