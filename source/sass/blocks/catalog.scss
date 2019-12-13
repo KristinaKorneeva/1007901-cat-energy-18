@@ -1,5 +1,5 @@
 .catalog {
-  margin-top: 38px;
+  margin-top: 41px;
 }
 
 .catalog__card {
@@ -62,6 +62,29 @@
   .catalog__more {
     background-color: $text_color_light;
     border: $border_catalog;
+
+    width: 324px;
+  }
+
+  .catalog__discription {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+
+  .catalog__text {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .catalog__icon {
+    width: 61px;
+    height: 61px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+
+  .catalog__button {
+    margin-top: 80px;
   }
 }
 
@@ -69,5 +92,22 @@
   .catalog__card {
     width: 17%;
     min-height: 431px;
+    padding-bottom: 0;
+  }
+
+  .catalog__more {
+    min-width: 20%;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .catalog__discription {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .catalog__text {
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }

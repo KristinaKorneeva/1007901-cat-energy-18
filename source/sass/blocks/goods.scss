@@ -65,7 +65,17 @@
 
   .goods__button {
     width: 27%;
-    padding-top: 7px;
+    padding-top: 9px;
     padding-bottom: 7px;
+    margin-top: 7px;
+  }
+
+  .goods__name {
+    padding-top: 15px;
+    width: 245px;
+  }
+
+  .goods__info {
+    width: 285px;
   }
 }

@@ -22,13 +22,15 @@
 }
 
 .form__input--icon-mail {
-  background-image: url("../img/icon-mail.svg") no-repeat;
-  background-position: right 13px;
+  background-image: url("../img/icon-mail.svg");
+  background-repeat: no-repeat;
+  background-position: 185px 15px;
 }
 
 .form__input--icon-tel {
-  background-image: url("..//img/icon-phone.svg") no-repeat;
-  background-position: right 8px;
+  background-image: url("../img/icon-phone.svg");
+  background-repeat: no-repeat;
+  background-position: 166px 10px;
 }
 
 .form__input {
@@ -272,12 +274,20 @@
   .form__input--checkbox + .form__label--checkbox::after {
     height: 38px;
     width: 38px;
-    left: -3px;
+    left: 0;
     top: 7px;
   }
 
   .form__button {
     width: 45%;
+  }
+
+  .form__input--icon-mail {
+    background-position: 508px 18px;
+  }
+
+  .form__input--icon-tel {
+    background-position: 487px 15px;
   }
 }
 
@@ -305,7 +315,16 @@
   }
 
   .form__item-radio {
-    padding-bottom: 25px;
+    padding-bottom: 20px;
     padding-top: 25px;
+    margin-top: 16px;
+  }
+
+  .form__input--icon-mail {
+    background-position: 455px 18px;
+  }
+
+  .form__input--icon-tel {
+    background-position: 435px 15px;
   }
 }

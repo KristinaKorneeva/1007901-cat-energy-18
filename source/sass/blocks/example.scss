@@ -70,6 +70,11 @@
     margin-bottom: 0;
     width: 45%;
   }
+
+  .example__text-desc {
+    width: 182px;
+    text-align: right;
+  }
 }
 
 @media (min-width: $width-l) {
@@ -109,5 +114,9 @@
   .example__indicators {
     margin-bottom: 30px;
     width: 85%;
+  }
+
+  .example__text-desc {
+    width: 270px;
   }
 }
