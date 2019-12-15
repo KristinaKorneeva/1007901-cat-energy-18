@@ -6,12 +6,12 @@
   width: 78px;
 }
 
-.card__cell-name {
+.card__cell--name {
   text-align: left;
   padding-right: 45px;
 }
 
-.card__cell-product {
+.card__cell--product {
   text-align: right;
 }
 
@@ -20,11 +20,17 @@
     position: relative;
   }
 
+  .card__cell {
+    border-bottom: $border_secondary;
+  }
+
   .card__table {
     text-align: center;
 
     width: 100%;
     height: 113px;
+    margin-bottom: 20px;
+    border-collapse: collapse;
   }
 
   .card__title {
