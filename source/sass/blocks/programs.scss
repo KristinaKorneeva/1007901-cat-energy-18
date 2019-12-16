@@ -69,21 +69,32 @@
 
   .programs__wrapper {
     text-align: left;
-    padding-left: 87px;
+    padding-left: 60px;
   }
 
   .programs__title {
     color: $text_color_main;
   }
 
+  .programs__wrapper-img {
+    position: absolute;
+    width: 709px;
+    height: 609px;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+
   .programs__img {
     order: 3;
 
-    width: 600px;
-    height: 609px;
+    width: 100%;
+    max-width: 709px;
+    height: auto;
+    max-height: 609px;
     left: 50%;
-    margin-top: 85px;
-    margin-left: -300px;
+    margin-top: 88px;
+    margin-left: -352px;
   }
 
   .programs__button {
@@ -119,12 +130,23 @@
     }
   }
 
-  .programs__img {
-    left: 50%;
-    top: -53px;
+  .programs__wrapper-img {
+    position: absolute;
     width: 552px;
     height: 499px;
-    margin-left: -190px;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+
+  .programs__img {
+    left: 50%;
+    top: -72px;
+    width: 100%;
+    max-width: 552px;
+    height: auto;
+    max-height: 499px;
+    margin-left: -163px;
   }
 
   .programs__content {
