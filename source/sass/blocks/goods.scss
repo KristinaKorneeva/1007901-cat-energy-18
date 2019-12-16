@@ -29,6 +29,8 @@
   .goods {
     width: 100%;
     margin-top: 50px;
+
+    border: $border_main;
   }
 
   .goods__button {
@@ -36,8 +38,6 @@
   }
 
   .goods__item {
-    border: $border_secondary;
-
     padding-left: 38px;
     padding-right: 38px;
     padding-bottom: 15px;
@@ -51,19 +51,22 @@
 
     margin-right: 116px;
     margin-top: 44px;
+
+    border: none;
   }
 
   .goods__item {
     display: flex;
     justify-content: space-between;
-    border: none;
-    border-top: $border_secondary;
-    border-bottom: $border_secondary;
 
     padding-right: 0;
     padding-left: 0;
     padding-top: 8px;
     width: 104%;
+  }
+
+  .goods__item:first-child {
+    border-top: $border_secondary;
   }
 
   .goods__button {
