@@ -56,6 +56,9 @@
   .goods__item {
     display: flex;
     justify-content: space-between;
+    border: none;
+    border-top: $border_secondary;
+    border-bottom: $border_secondary;
 
     padding-right: 0;
     padding-left: 0;
