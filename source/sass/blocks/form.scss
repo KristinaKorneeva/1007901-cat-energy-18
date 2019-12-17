@@ -21,18 +21,6 @@
   align-items: center;
 }
 
-.form__input--icon-mail {
-  background-image: url("../img/icon-mail.svg");
-  background-repeat: no-repeat;
-  background-position: 185px 15px;
-}
-
-.form__input--icon-tel {
-  background-image: url("../img/icon-phone.svg");
-  background-repeat: no-repeat;
-  background-position: 166px 10px;
-}
-
 .form__input {
   box-sizing: border-box;
   flex-grow: 1;
@@ -42,17 +30,25 @@
   padding: 13px;
 }
 
-.form__input:hover,
-.form__input:focus {
+.form__input:hover {
   border-color: $checked_color;
 }
 
-.form__input:active {
+.form__input:focus {
   border-color: $text_color_default;
+  outline: none;
+}
+
+.form__input:focus + .input__icon {
+  color: $primary_color;
 }
 
 .form__input:invalid:not(:placeholder-shown) {
-  border-color: $eror_color;
+  border-color: $error_color;
+}
+
+.form__input:invalid:not(:placeholder-shown) + .input__icon {
+  color: $error_color;
 }
 
 .form__label {
@@ -281,14 +277,6 @@
   .form__button {
     width: 45%;
   }
-
-  .form__input--icon-mail {
-    background-position: 508px 18px;
-  }
-
-  .form__input--icon-tel {
-    background-position: 487px 15px;
-  }
 }
 
 @media (min-width: $width-l) {
@@ -318,13 +306,5 @@
     padding-bottom: 20px;
     padding-top: 25px;
     margin-top: 16px;
-  }
-
-  .form__input--icon-mail {
-    background-position: 455px 18px;
-  }
-
-  .form__input--icon-tel {
-    background-position: 435px 15px;
   }
 }
