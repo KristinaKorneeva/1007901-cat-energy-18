@@ -17,3 +17,9 @@
   bottom: 0;
   margin: auto;
 }
+
+@media (min-width: $width-l) {
+  .input__icon--tel {
+    right: 65px;
+  }
+}

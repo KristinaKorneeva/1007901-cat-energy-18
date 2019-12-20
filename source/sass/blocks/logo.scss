@@ -2,6 +2,9 @@
   display: none;
 }
 
+.logo_desktop {
+  display: none;
+}
 
 @media (min-width: $width-m) {
   .logo__tablet {
@@ -19,5 +22,15 @@
 
   .logo__tablet:active {
     opacity: 0.6;
+  }
+}
+
+@media (min-width: $width-l) {
+  .logo_desktop {
+    display: block;
+  }
+
+  .logo__tablet {
+    display: none;
   }
 }

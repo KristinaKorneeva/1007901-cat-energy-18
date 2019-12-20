@@ -2,6 +2,11 @@
   display: flex;
 }
 
+.card__link {
+  display: flex;
+  justify-content: start;
+}
+
 .card__title {
   width: 78px;
 }
@@ -33,10 +38,12 @@
     border-collapse: collapse;
   }
 
+  .card__link {
+    justify-content: center;
+  }
+
   .card__title {
     width: 50%;
-    padding-left: 70px;
-    padding-right: 70px;
   }
 
   .card__button {
