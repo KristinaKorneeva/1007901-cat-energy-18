@@ -168,7 +168,7 @@
   }
 
   .slider__range [type="range"]::-webkit-slider-thumb {
-    box-shadow: 0 0 2px 2px $radio_color, inset 0 0 0 8px $text_color_light;
+    box-shadow: 0 1px 2px 1px #d7d7d7, inset 0 0 0 8px $text_color_light;
     border: 1px solid $radio_color;
     height: 26px;
     width: 26px;
@@ -233,12 +233,11 @@
 
   .slider__range [type="range"]:hover::-webkit-slider-thumb,
   .slider__range [type="range"]:focus::-webkit-slider-thumb {
-    box-shadow: 0 0 2px 2px $checked_color, inset 0 0 0 8px $text_color_light;
-    border: 1px solid $checked_color;
+    box-shadow: 0 2px 3px 1px #c5c5c5, inset 0 0 0 8px $text_color_light;
   }
 
   .slider__range [type="range"]:active::-webkit-slider-thumb {
-    box-shadow: 0 0 2px 2px $primary_color, inset 0 0 0 8px $text_color_light;
+    box-shadow: 0 2px 3px 1px #c5c5c5, 0 0 0 0.1px $primary_color, inset 0 0 0 8px $text_color_light;
     border: 1px solid $primary_color;
   }
 }
