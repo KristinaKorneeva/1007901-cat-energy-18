@@ -35,7 +35,7 @@
 }
 
 .form__input:focus {
-  border-color: $text_color_default;
+  border: 2px solid $text_color_default;
   outline: none;
 }
 
@@ -44,7 +44,7 @@
 }
 
 .form__input:invalid:not(:placeholder-shown) {
-  border-color: $error_color;
+  border: 2px solid $error_color;
 }
 
 .form__input:invalid:not(:placeholder-shown) + .input__icon {
@@ -124,7 +124,7 @@
   opacity: 1;
 }
 
-.form__input--radio:hover + .form__label--radio::before,
+.form__label--radio:hover::before,
 .form__input--radio:focus + .form__label--radio::before {
   border-color: $radio_color_hover;
 }
@@ -174,7 +174,7 @@
   opacity: 1;
 }
 
-.form__input--checkbox:hover + .form__label--checkbox::before,
+.form__label--checkbox:hover::before,
 .form__input--checkbox:focus + .form__label--checkbox::before {
   border-color: $checked_color_hover;
 }
@@ -264,14 +264,15 @@
   .form__input--checkbox + .form__label--checkbox::before {
     height: 38px;
     width: 38px;
-    left: -11px;
+    left: -10px;
+    top: -10px;
   }
 
   .form__input--checkbox + .form__label--checkbox::after {
     height: 38px;
     width: 38px;
     left: 0;
-    top: 7px;
+    top: 0;
   }
 
   .form__button {
