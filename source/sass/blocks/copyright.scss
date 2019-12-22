@@ -1,9 +1,14 @@
 .copyright__logo {
   color: $icon__color;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
 }
 
-.copyright__logo:hover,
-.copyright__logo:focus {
+.copyright__logo:hover .copyright__logo--academy,
+.copyright__logo:focus .copyright__logo--academy {
   color: $primary_color;
 }
 
@@ -11,16 +16,12 @@
   opacity: 0.6;
 }
 
-.copyright__link {
+.copyright__logo--name {
   font-family: $font-family_secondary;
 }
 
-.copyright__link:focus {
-  opacity: 0.6;
-}
-
 @media (min-width: $width-m) {
-  .copyright__link {
+  .copyright__logo--name {
     margin-right: 25px;
   }
 }
