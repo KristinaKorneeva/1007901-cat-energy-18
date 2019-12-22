@@ -7,13 +7,8 @@
   width: 100%;
 }
 
-.copyright__logo:hover .copyright__logo--academy,
 .copyright__logo:focus .copyright__logo--academy {
   color: $primary_color;
-}
-
-.copyright__logo:focus {
-  opacity: 0.6;
 }
 
 .copyright__logo-name {
@@ -23,5 +18,15 @@
 @media (min-width: $width-m) {
   .copyright__logo-name {
     margin-right: 25px;
+  }
+}
+
+@media (min-width: $width-l) {
+  .copyright__logo:hover .copyright__logo--academy {
+    color: $primary_color;
+  }
+
+  .copyright__logo:active {
+    opacity: 0.6;
   }
 }

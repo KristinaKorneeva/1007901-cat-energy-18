@@ -65,19 +65,13 @@
   display: none;
 }
 
-.category__link:hover .category__icon--arrow,
 .category__link:focus .category__icon--arrow {
   display: none;
 }
 
-.category__link:hover .category__icon--arrow-verylong,
 .category__link:focus .category__icon--arrow-verylong {
   display: block;
   margin-left: 20px;
-}
-
-.category__link:active {
-  opacity: 0.3;
 }
 
 .category__wrapper {
@@ -161,5 +155,18 @@
     background-position: 0;
     min-width: 134px;
     min-height: 57px;
+  }
+
+  .category__link:hover .category__icon--arrow {
+    display: none;
+  }
+
+  .category__link:hover .category__icon--arrow-verylong {
+    display: block;
+    margin-left: 20px;
+  }
+
+  .category__link:active {
+    opacity: 0.3;
   }
 }

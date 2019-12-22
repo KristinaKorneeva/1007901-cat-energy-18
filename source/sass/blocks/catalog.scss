@@ -28,13 +28,8 @@
   color: $text_color_default;
 }
 
-.catalog__button:hover,
 .catalog__button:focus {
   background-color: $secondary_color_hover;
-}
-
-.catalog__button:active {
-  color: rgba($text_color_default, 0.3);
 }
 
 @media (min-width: $width-m) {
@@ -109,5 +104,13 @@
   .catalog__text {
     padding-left: 10px;
     padding-right: 10px;
+  }
+
+  .catalog__button:hover {
+    background-color: $secondary_color_hover;
+  }
+
+  .catalog__button:active {
+    color: rgba($text_color_default, 0.3);
   }
 }

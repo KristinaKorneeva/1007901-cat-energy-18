@@ -6,6 +6,10 @@
   display: none;
 }
 
+.logo:focus {
+  opacity: 0.8;
+}
+
 @media (min-width: $width-m) {
   .logo__tablet {
     display: block;
@@ -15,12 +19,11 @@
     display: none;
   }
 
-  .logo__tablet:hover,
-  .logo__tablet:focus {
+  .logo:hover {
     opacity: 0.8;
   }
 
-  .logo__tablet:active {
+  .logo:active {
     opacity: 0.6;
   }
 }

@@ -9,13 +9,8 @@
   color: $icon__color;
 }
 
-.social__link:hover,
 .social__link:focus {
   color: $primary_color;
-}
-
-.social__link:active {
-  opacity: 0.6;
 }
 
 @media (min-width: $width-m) {
@@ -32,5 +27,13 @@
   .social__link-fb {
     width: 14px;
     height: 28px;
+  }
+
+  .social__link:hover {
+    color: $primary_color;
+  }
+
+  .social__link:active {
+    opacity: 0.6;
   }
 }
