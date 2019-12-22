@@ -16,12 +16,12 @@
   opacity: 0.6;
 }
 
-.copyright__logo--name {
+.copyright__logo-name {
   font-family: $font-family_secondary;
 }
 
 @media (min-width: $width-m) {
-  .copyright__logo--name {
+  .copyright__logo-name {
     margin-right: 25px;
   }
 }

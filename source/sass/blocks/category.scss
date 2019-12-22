@@ -57,21 +57,21 @@
   padding-bottom: 20px;
 }
 
-.category__link--arrow {
+.category__icon--arrow {
   margin-left: 20px;
 }
 
-.category__link--arrow-verylong {
+.category__icon--arrow-verylong {
   display: none;
 }
 
-.category__link:hover .category__link--arrow,
-.category__link:focus .category__link--arrow {
+.category__link:hover .category__icon--arrow,
+.category__link:focus .category__icon--arrow {
   display: none;
 }
 
-.category__link:hover .category__link--arrow-verylong,
-.category__link:focus .category__link--arrow-verylong {
+.category__link:hover .category__icon--arrow-verylong,
+.category__link:focus .category__icon--arrow-verylong {
   display: block;
   margin-left: 20px;
 }
