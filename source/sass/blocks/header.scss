@@ -20,6 +20,14 @@
   border: none;
 }
 
+.header--nojs .header__button {
+  display: none;
+}
+
+.header--nojs .header__nav {
+  display: block;
+}
+
 .header__icon--open {
   display: block;
 }

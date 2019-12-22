@@ -69,3 +69,9 @@
     top: -77px;
   }
 }
+
+@media (min-width: $width-l) {
+  .card__title {
+    width: 70%;
+  }
+}
