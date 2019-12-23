@@ -20,6 +20,10 @@
   text-align: right;
 }
 
+.card__table {
+  height: 60px;
+}
+
 @media (min-width: $width-m) {
   .card {
     position: relative;
@@ -44,6 +48,7 @@
 
   .card__title {
     width: 50%;
+    margin-top: 0;
   }
 
   .card__button {
@@ -73,5 +78,19 @@
 @media (min-width: $width-l) {
   .card__title {
     width: 70%;
+  }
+
+  .card__description {
+    width: 188px;
+    padding-left: 13px;
+  }
+
+  .card__wrapper {
+    padding-top: 168px;
+  }
+
+  .card__button {
+    width: 81%;
+    margin-left: 16px;
   }
 }

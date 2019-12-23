@@ -85,19 +85,28 @@
   .discription__text {
     width: 220px;
   }
+
+  .discription__title {
+    margin-bottom: 70px;
+    margin-top: 69px;
+  }
 }
 
 @media (min-width: $width-l) {
   .discription__item {
     box-sizing: border-box;
 
-    width: 25%;
+    width: 20%;
     min-height: 230px;
     margin-bottom: 80px;
     padding-right: 55px;
   }
 
   .discription {
-    margin-bottom: 200px;
+    margin-bottom: 128px;
+  }
+
+  .discription__title {
+    margin-top: 49px;
   }
 }

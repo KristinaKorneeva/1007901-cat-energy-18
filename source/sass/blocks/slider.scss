@@ -1,6 +1,8 @@
 .slider {
   position: relative;
   z-index: 1;
+  top: 21px;
+  left: -21px;
 }
 
 .slider__image-before {
@@ -24,8 +26,10 @@
   display: flex;
   justify-content: center;
 
-  margin-top: 31px;
-  padding-bottom: 40px;
+  margin-top: 28px;
+  padding-bottom: 55px;
+
+  margin-left: 50px;
 }
 
 .slider__range {
@@ -49,10 +53,10 @@
   background-color: $text_color_light;
   border: $border_secondary;
   border-radius: 5px;
-  top: 5px;
+  top: 4px;
   left: 50%;
-  margin-left: -43px;
-  width: 86px;
+  margin-left: -44px;
+  width: 84px;
   height: 12px;
   padding-left: 5px;
   padding-right: 5px;
@@ -81,7 +85,8 @@
 
 @media (min-width: $width-m) {
   .slider {
-    margin-top: 70px;
+    margin-top: 25px;
+    left: 9px;
   }
 
   .slider__image-before {
@@ -103,7 +108,7 @@
     right: 0;
     left: 0;
     bottom: 0;
-    background: linear-gradient(to bottom, #ffffff 168px, #f2f2f2 168px);
+    background: linear-gradient(to bottom, #ffffff 186px, #f2f2f2 186px);
     z-index: -1;
   }
 
@@ -118,17 +123,25 @@
   /*range*/
   .slider__control {
     padding-top: 0;
-    padding-bottom: 80px;
+    padding-bottom: 87px;
+    margin-left: 0;
   }
 
   .slider__range {
     border: none;
     background-color: transparent;
     min-width: 428px;
+    left: -7px;
+    top: -5px;
   }
 
   .slider__button {
+    font-size: $font-size_nav;
+    line-height: $line-height_nav;
+
     border-bottom: $border_catalog-dotted;
+    padding: 0;
+    margin: 0 20px;
   }
 
   .slider__button:hover,
@@ -170,8 +183,8 @@
   .slider__range [type="range"]::-webkit-slider-thumb {
     box-shadow: 0 1px 2px 1px #d7d7d7, inset 0 0 0 8px $text_color_light;
     border: 1px solid $radio_color;
-    height: 26px;
-    width: 26px;
+    height: 30px;
+    width: 30px;
     border-radius: 50%;
     background: $primary_color;
     cursor: pointer;
@@ -244,7 +257,7 @@
 
 @media (min-width: $width-l) {
   .slider {
-    margin-top: 0;
+    margin-top: -32px;
   }
 
   .slider__image-before {
@@ -258,6 +271,11 @@
 
   .slider__image-before::before {
     content: "";
-    background: linear-gradient(to bottom, #ffffff 179px, #f2f2f2 179px);
+    background: linear-gradient(to bottom, #ffffff 189px, #f2f2f2 189px);
+  }
+
+  .slider__control {
+    margin-top: 49px;
+    margin-left: 84px;
   }
 }

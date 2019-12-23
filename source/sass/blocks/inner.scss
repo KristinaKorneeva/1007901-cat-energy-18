@@ -1,6 +1,7 @@
 .inner {
   box-sizing: border-box;
   margin: $main-margin;
+  display: block;
 }
 
 @media (min-width: $width-s) {

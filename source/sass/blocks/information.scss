@@ -31,4 +31,11 @@
   .information__map {
     background-image: url("../img/pin-on-map-desktop@1x.jpg");
   }
+
+  .information__contact {
+    position: absolute;
+    z-index: 1;
+    width: 647px;
+    right: 50%;
+  }
 }

@@ -37,6 +37,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-bottom: 30px;
 }
 
 .copyright__link {
@@ -61,11 +62,17 @@
     border: none;
   }
 
+  .footer__logo {
+    margin: 0;
+  }
+
   .footer__bottom {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
+    padding-top: 31px;
+    padding-bottom: 30px;
   }
 }
 

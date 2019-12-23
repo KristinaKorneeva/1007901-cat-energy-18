@@ -4,3 +4,10 @@
   font-size: $font-size_secondary;
   line-height: $line-height_secondary;
 }
+
+@media (min-width: $width-m) {
+  .line {
+    font-size: $font-size_primary;
+    line-height: $line-height_primary;
+  }
+}

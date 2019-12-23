@@ -3,7 +3,7 @@
   justify-content: space-between;
   text-align: start;
 
-  padding: 18px 0;
+  padding: 15px 0;
 }
 
 .contact__invitation {
@@ -21,7 +21,7 @@
 @media (min-width: $width-m) {
   .contact {
     justify-content: space-between;
-    padding: 35px 38px;
+    padding: 50px 38px;
   }
 
   .contact__address {
@@ -30,15 +30,15 @@
 }
 
 @media (min-width: $width-l) {
-  .information__contact {
-    position: absolute;
-    z-index: 1;
-    width: 570px;
-  }
-
   .contact {
     background-color: $text_color_light;
+    padding: 48px 57px 46px 75px;
+    text-align: start;
 
-    margin-top: 54px;
+    margin-top: 95px;
+  }
+
+  .contact__address {
+    text-align: start;
   }
 }

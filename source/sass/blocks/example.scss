@@ -6,6 +6,7 @@
 
 .example__wrapper-result {
   text-align: center;
+  margin-top: 30px;
 }
 
 .example__result {
@@ -15,8 +16,8 @@
   border: $border_main;
   border-radius: 5px;
   width: 35%;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 12px;
+  padding-right: 12px;
 }
 
 .example__indicators {
@@ -26,18 +27,28 @@
   font-size: $font-size_subject;
   line-height: $line-height_subject;
 
-  margin-bottom: 30px;
+  margin-bottom: 22px;
+}
+
+.example__indicator {
+  text-transform: uppercase;
+  margin: 15px 0;
 }
 
 .example__discription {
   position: absolute;
   background-color: $secondary-color;
   border: none;
-  top: 54px;
-  left: 22px;
+  top: 33px;
+  left: 18px;
   width: 50px;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 14px;
+  padding-left: 14px;
+}
+
+.example__text-wrapper {
+  display: flex;
+  justify-content: center;
 }
 
 @media (min-width: $width-m) {
@@ -46,9 +57,18 @@
   }
 
   .example__wrap {
-    margin-top: -601px;
+    margin-top: -636px;
 
     border-top: $border_secondary;
+  }
+
+  .example__result {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .example__indicator {
+    margin: 25px 0;
   }
 
   .example__wrapper-result {
@@ -61,20 +81,27 @@
   .example__discription {
     background-color: $text_color_light;
     left: 9px;
-    top: 60px;
+    top: 55px;
     width: 110px;
     padding-right: 5px;
     padding-left: 5px;
   }
 
   .example__indicators {
-    margin-bottom: 0;
-    width: 45%;
+    width: 52%;
+    font-size: $font-size_first;
+    line-height: $line-height_heading;
+  }
+
+  .example__text-wrapper {
+    flex-wrap: wrap;
+    width: 200px;
   }
 
   .example__text-desc {
     width: 182px;
     text-align: right;
+    margin: 0;
   }
 }
 
@@ -92,7 +119,7 @@
   }
 
   .example__title {
-    margin-bottom: 174px;
+    margin-bottom: 146px;
   }
 
   .example__content {
@@ -102,23 +129,34 @@
   .example__wrapper-result {
     flex-direction: column;
     text-align: left;
+    margin-top: 68px;
   }
 
   .example__discription {
     background-color: $secondary-color;
     left: 15px;
-    top: 55px;
-    width: 110px;
+    top: 47px;
+    width: 129px;
     padding-right: 5px;
     padding-left: 5px;
+    font-size: $font-size_default;
   }
 
   .example__indicators {
-    margin-bottom: 30px;
+    margin-bottom: 59px;
     width: 85%;
   }
 
+  .example__indicator {
+    margin: 17px 0;
+  }
+
+  .example__text-wrapper {
+    width: 355px;
+    justify-content: space-between;
+  }
+
   .example__text-desc {
-    width: 270px;
+    width: 176px;
   }
 }
