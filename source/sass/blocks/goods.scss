@@ -19,6 +19,7 @@
 .goods__info {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .goods__name {
@@ -77,6 +78,7 @@
   .goods__item {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 
     padding-right: 0;
     padding-left: 0;

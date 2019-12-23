@@ -23,6 +23,7 @@
 .example__indicators {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 
   font-size: $font-size_subject;
   line-height: $line-height_subject;
@@ -74,6 +75,7 @@
   .example__wrapper-result {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 
     margin-top: 75px;
   }

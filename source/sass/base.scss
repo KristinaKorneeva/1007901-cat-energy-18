@@ -18,7 +18,7 @@ body {
   min-width: $width-s;
 
   color: $text_color_main;
-  font-family: $font-family_primary;
+  font-family: $font-family_primary, "Arial", sans-serif;
   font-weight: 400;
   font-size: $font-size_default;
   line-height: $line-height-default;

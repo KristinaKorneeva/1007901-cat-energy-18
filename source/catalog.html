@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Academy: Кэт энерджи</title>
     <link href="./css/style.min.css" rel="stylesheet">
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=56883a90-3e5e-4010-9b69-6f49ad420393&lang=ru_RU" type="text/javascript"></script>
   </head>
   <body>
     <header class="header header--nojs inner">
@@ -331,7 +332,7 @@
         </div>
         <div class="information__map">
           <!--map-->
-          <iframe class="information__map-card" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1998.6037861610246!2d30.3208587!3d59.9387165!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2sBolshaya%20Konyushennaya%20St%2C%2019%2F8%2C%20Sankt-Peterburg%2C%20191186!5e0!3m2!1sen!2sru!4v1577026908822!5m2!1sen!2sru" width="600" height="450" allowfullscreen=""></iframe>
+          <div class="information__maps" id="map"></div>
         </div>
       </div>
       <div class="footer__wrapper">
@@ -366,6 +367,7 @@
       </div>
     </footer>
     <script src="./js/mobile.js"></script>
+    <script src="./js/map.js"></script>
     <div style="display: none;">
       <include src="build/img/sprite.svg"></include>
     </div>
