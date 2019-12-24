@@ -3,206 +3,46 @@
   height: 60px;
 }
 
-.logo-icon__1 {
+.logo-icon__desktop {
   display: none;
 }
 
-.logo-icon__2 {
-  display: none;
-}
-
-.logo-icon__3 {
-  display: none;
-}
-
-.logo-icon__4 {
-  display: none;
-}
-
-.logo-icon__5 {
-  display: none;
-}
-
-.logo-icon__6 {
-  display: none;
-}
-
-.logo-icon__7 {
-  display: none;
-}
-
-.logo-icon__8 {
-  display: none;
-}
-
-.logo-icon__9 {
-  display: none;
-}
-
-.logo-icon__10 {
-  display: none;
-}
-
-.logo-icon__11 {
-  display: none;
-}
-
-.logo-icon__12 {
-  display: none;
-}
-
-.logo-icon__13 {
-  display: none;
-}
-
-.logo-icon__14 {
-  display: none;
-}
-
-.logo-icon__15 {
-  display: none;
-}
-
-.logo-icon__16 {
-  display: none;
-}
-
-.logo-icon__24 {
-  display: none;
-}
-
-.logo-icon__25 {
+.logo-icon__tablet {
   display: none;
 }
 
 @media (min-width: $width-m) {
-  .logo-icon__1 {
+  .logo-icon__mobil {
+    display: none;
+  }
+
+  .logo-icon__desktop {
     display: block;
   }
 
-  .logo-icon__2 {
+  .logo-icon__tablet {
     display: block;
   }
 
-  .logo-icon__3 {
-    display: block;
-  }
-
-  .logo-icon__4 {
-    display: block;
-  }
-
-  .logo-icon__5 {
-    display: block;
-  }
-
-  .logo-icon__6 {
-    display: block;
-  }
-
-  .logo-icon__7 {
+  .logo-icon__desktop-name {
     display: none;
   }
 
-  .logo-icon__8 {
-    display: block;
-  }
-
-  .logo-icon__9 {
+  .logo-icon__desktop-strips {
     display: none;
-  }
-
-  .logo-icon__10 {
-    display: none;
-  }
-
-  .logo-icon__11 {
-    display: none;
-  }
-
-  .logo-icon__12 {
-    display: block;
-  }
-
-  .logo-icon__13 {
-    display: none;
-  }
-
-  .logo-icon__14 {
-    display: block;
-  }
-
-  .logo-icon__17 {
-    display: none;
-  }
-
-  .logo-icon__18 {
-    display: none;
-  }
-
-  .logo-icon__19 {
-    display: none;
-  }
-
-  .logo-icon__20 {
-    display: none;
-  }
-
-  .logo-icon__21 {
-    display: none;
-  }
-
-  .logo-icon__22 {
-    display: none;
-  }
-
-  .logo-icon__23 {
-    display: none;
-  }
-
-  .logo-icon__24 {
-    display: block;
-  }
-
-  .logo-icon__25 {
-    display: block;
   }
 }
 
 @media (min-width: $width-l) {
-  .logo-icon__7 {
-    display: block;
-  }
-
-  .logo-icon__9 {
-    display: block;
-  }
-
-  .logo-icon__10 {
-    display: block;
-  }
-
-  .logo-icon__11 {
-    display: block;
-  }
-
-  .logo-icon__13 {
-    display: block;
-  }
-
-  .logo-icon__24 {
+  .logo-icon__tablet {
     display: none;
   }
 
-  .logo-icon__25 {
-    display: none;
-  }
-
-  .logo-icon__15 {
+  .logo-icon__desktop-name {
     display: block;
   }
 
-  .logo-icon__16 {
+  .logo-icon__desktop-strips {
     display: block;
   }
 }
