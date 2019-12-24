@@ -1,6 +1,10 @@
 .header {
   border-bottom: $border-main;
-  margin-top: 20px;
+}
+
+.header__logo {
+  width: 188px;
+  height: 38px;
 }
 
 .header__wrapper {
@@ -57,11 +61,13 @@
 
     border: none;
     margin-bottom: 0;
-    margin-top: 20px;
+    margin-top: 40px;
   }
 
   .header__wrapper {
-    margin-right: 80px;
+    margin-right: 61px;
+    margin-left: -25px;
+    margin-top: -29px;
   }
 
   .header__button {
@@ -83,5 +89,11 @@
 @media (min-width: $width-l) {
   .header {
     padding-bottom: 44px;
+  }
+
+  .header__wrapper {
+    margin-right: 60px;
+    margin-left: 0;
+    margin-top: -19px;
   }
 }
