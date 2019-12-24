@@ -11,61 +11,51 @@
   margin-bottom: 43px;
 }
 
+.discription__text {
+  margin: 0;
+  margin-left: 80px;
+  margin-bottom: 8px;
+}
+
 .discription__item {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.discription__image {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   position: relative;
-
-  box-sizing: border-box;
-  background-color: $primary_color;
-
-  min-width: 60px;
-  width: 60px;
-  height: 60px;
-  margin-bottom: 19px;
-  margin-right: 20px;
 }
 
-.discription__image::before {
+.discription__item::before {
   content: "";
   position: absolute;
+  z-index: 1;
   background-position: center;
   background-size: 50px;
+  background-repeat: no-repeat;
+  background-color: $primary_color;
   top: 6px;
   left: 6px;
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
 }
 
-.discription__image--leaf::before {
+.discription__item--leaf::before {
   content: "";
   background-image: url("../img/advantage-leaf@1x.png");
 }
 
-.discription__image--powder::before {
+.discription__item--powder::before {
   content: "";
   background-image: url("../img/advantage-powder@1x.png");
 }
 
-.discription__image--dining::before {
+.discription__item--dining::before {
   content: "";
   background-image: url("../img/advantage-dining@1x.png");
 }
 
-.discription__image--clock::before {
+.discription__item--clock::before {
   content: "";
   background-image: url("../img/advantage-clock@1x.png");
-}
-
-.discription__text {
-  margin: 0;
 }
 
 @media (min-width: $width-m) {
@@ -82,15 +72,9 @@
     margin-top: 70px;
   }
 
-  .discription__image::before {
-    content: "";
-    width: 65px;
-    height: 65px;
-  }
-
   .discription__item {
-    display: block;
-    box-sizing: border-box;
+    align-items: center;
+    justify-content: flex-start;
 
     background-repeat: no-repeat;
     background-position: 125px;
@@ -98,6 +82,14 @@
     width: 46%;
     min-height: 230px;
     margin-bottom: 87px;
+  }
+
+  .discription__item::before {
+    content: "";
+    width: 80px;
+    height: 80px;
+    top: 0;
+    left: 0;
   }
 
   .discription__item:nth-child(1) {
@@ -124,7 +116,9 @@
   }
 
   .discription__text {
-    width: 220px;
+    width: 225px;
+    margin-left: 0;
+    margin-top: 70px;
   }
 
   .discription__title {
@@ -149,5 +143,10 @@
 
   .discription__title {
     margin-top: 49px;
+  }
+
+  .discription__text {
+    margin-top: 70px;
+    min-width: 265px;
   }
 }
