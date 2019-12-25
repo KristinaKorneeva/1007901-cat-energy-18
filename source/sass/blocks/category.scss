@@ -174,11 +174,11 @@
     padding-top: 31px;
   }
 
-  .category__link:hover .category__icon--arrow {
+  .category__link[href]:hover .category__icon--arrow {
     display: none;
   }
 
-  .category__link:hover .category__icon--arrow-verylong {
+  .category__link[href]:hover .category__icon--arrow-verylong {
     display: block;
     margin-left: 20px;
   }

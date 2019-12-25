@@ -23,7 +23,7 @@
 }
 
 @media (min-width: $width-l) {
-  .copyright__logo:hover .copyright__logo-academy {
+  .copyright__logo[href]:hover .copyright__logo-academy {
     color: $primary_color;
   }
 

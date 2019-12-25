@@ -44,6 +44,7 @@
 .form__input:focus {
   border: 2px solid $text_color_default;
   outline: none;
+  padding: 10px;
 }
 
 .form__input:focus + .input__icon {
@@ -52,6 +53,7 @@
 
 .form__input:invalid:not(:placeholder-shown) {
   border: 2px solid $error_color;
+  padding: 10px;
 }
 
 .form__input:invalid:not(:placeholder-shown) + .input__icon {
@@ -137,6 +139,10 @@
   border-color: $radio_color_hover;
 }
 
+.form__list--checkbox {
+  padding-left: 2px;
+}
+
 .form__label--checkbox {
   display: block;
   position: relative;
@@ -145,7 +151,6 @@
 
   padding-bottom: 24px;
   padding-left: 45px;
-  margin: 0 -20px;
 }
 
 .form__input--checkbox + .form__label--checkbox::before {
@@ -194,7 +199,6 @@
   }
 
   .form__list {
-    padding-left: 31px;
     margin-bottom: 36px;
   }
 
@@ -248,16 +252,22 @@
     margin-left: 80px;
   }
 
+  .form__label--checkbox {
+    padding-bottom: 14px;
+    padding-left: 60px;
+  }
+
   .form__list--checkbox {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-top: -36px;
+    margin-top: -42px;
   }
 
   .form__checkbox {
     width: 236px;
     padding-top: 38px;
+    margin-right: 42px;
   }
 
   .form__input--radio + .form__label--radio::before {
@@ -275,14 +285,14 @@
   .form__input--checkbox + .form__label--checkbox::before {
     height: 38px;
     width: 38px;
-    left: -10px;
+    left: 0;
     top: -10px;
   }
 
   .form__input--checkbox + .form__label--checkbox::after {
     height: 38px;
     width: 38px;
-    left: 0;
+    left: 10px;
     top: 0;
   }
 

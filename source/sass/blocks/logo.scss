@@ -19,7 +19,7 @@
     display: none;
   }
 
-  .logo:hover {
+  .logo[href]:hover {
     opacity: 0.8;
   }
 

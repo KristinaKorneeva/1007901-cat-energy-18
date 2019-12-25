@@ -81,7 +81,7 @@
     position: relative;
   }
 
-  .footer__logo:hover {
+  .footer__logo[href]:hover {
     opacity: 0.7;
   }
 

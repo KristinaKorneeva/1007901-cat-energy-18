@@ -29,7 +29,7 @@
     height: 28px;
   }
 
-  .social__link:hover {
+  .social__link[href]:hover {
     color: $primary_color;
   }
 
