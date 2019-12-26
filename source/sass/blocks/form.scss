@@ -44,16 +44,15 @@
 .form__input:focus {
   border: 2px solid $text_color_default;
   outline: none;
-  padding: 10px;
 }
 
 .form__input:focus + .input__icon {
   color: $primary_color;
+  padding: 11px;
 }
 
 .form__input:invalid:not(:placeholder-shown) {
   border: 2px solid $error_color;
-  padding: 10px;
 }
 
 .form__input:invalid:not(:placeholder-shown) + .input__icon {
@@ -358,11 +357,12 @@
 
   .form__input:hover {
     border-color: $checked_color;
-    padding: 10px;
+
   }
 
   .form__label--radio:hover::before {
     border-color: $radio_color_hover;
+    padding: 11px;
   }
 
   .form__label--radio:active {
