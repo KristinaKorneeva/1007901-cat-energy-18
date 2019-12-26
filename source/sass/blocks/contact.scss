@@ -11,8 +11,14 @@
   width: 170px;
 }
 
+.contact__address-wrapper {
+  margin-left: 30px;
+}
+
 .contact__address {
   width: 170px;
+  margin-bottom: -2px;
+  margin-top: 6px;
 }
 
 .contact--main {
@@ -33,10 +39,10 @@
 @media (min-width: $width-l) {
   .contact {
     background-color: $text_color_light;
-    padding: 48px 57px 46px 75px;
     text-align: start;
 
-    margin-top: 95px;
+    padding: 48px 57px 51px 75px;
+    margin-top: 100px;
   }
 
   .contact__address {

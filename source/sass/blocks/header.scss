@@ -13,17 +13,18 @@
   align-items: center;
 
   min-height: 65px;
+  margin-top: -1px;
 }
 
 .header__nav {
-  margin: $main_margin;
   display: none;
+  margin: $main_margin;
 }
 
 .header__button {
   background-color: transparent;
   border: none;
-  margin-left: 57px;
+  margin-left: 60px;
 }
 
 .header--nojs .header__button {
@@ -61,13 +62,13 @@
 
     border: none;
     margin-bottom: 0;
-    margin-top: 40px;
+    margin-top: 21px;
   }
 
   .header__wrapper {
-    margin-right: 61px;
-    margin-left: -25px;
-    margin-top: -29px;
+    margin-right: 80px;
+    margin-left: 0;
+    margin-top: -30px;
   }
 
   .header__button {
@@ -80,19 +81,14 @@
   }
 }
 
-@media (min-width: $width-m) {
-  .header {
-    margin-top: 48px;
-  }
-}
-
 @media (min-width: $width-l) {
   .header {
     padding-bottom: 44px;
+    margin-top: 49px;
   }
 
   .header__wrapper {
-    margin-right: 60px;
+    margin-right: 390px;
     margin-left: 0;
     margin-top: -19px;
   }

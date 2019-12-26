@@ -4,7 +4,7 @@
   color: $text_color_light;
   text-align: center;
 
-  min-height: 308px;
+  min-height: 305px;
   margin-bottom: 200px;
 }
 
@@ -36,6 +36,8 @@
 
 .programs__title {
   color: $text_color_light;
+  margin-top: 27px;
+  margin-bottom: 22px;
 }
 
 .programs__img {
@@ -59,8 +61,9 @@
   .programs {
     color: $text_color_main;
 
-    padding-left: 60px;
+    padding-left: 118px;
     margin-bottom: 0;
+    margin-top: 24px;
   }
 
   .programs::after {
@@ -69,11 +72,12 @@
 
   .programs__wrapper {
     text-align: left;
-    padding-left: 60px;
+    padding-left: 0;
   }
 
   .programs__title {
     color: $text_color_main;
+    margin-bottom: 38px;
   }
 
   .programs__wrapper-img {
@@ -94,15 +98,18 @@
     height: auto;
     max-height: 609px;
     left: 50%;
-    margin-top: 88px;
-    margin-left: -352px;
+    margin-top: 61px;
+    margin-left: -354px;
   }
 
   .programs__button {
+    position: initial;
     order: 2;
 
-    margin-top: 50px;
-    position: initial;
+    width: 247px;
+    margin-top: 47px;
+    padding-top: 16px;
+    padding-bottom: 16px;
   }
 
   .programs__content {
@@ -114,23 +121,24 @@
 @media (min-width: $width-l) {
   .programs {
     margin-top: -44px;
+    padding-left: 191px;
   }
 
   .programs::after {
     display: block;
 
     background-image: url("../img/index-background-desktop@1x.jpg");
-    background-position: 0 45px;
+    background-position: 0 43px;
     background-size: 100%;
 
     width: 50vw;
     height: 738px;
-    top: -160px;
+    top: -159px;
     right: 0;
 
     @media (min-resolution: $retina-dppx) {
       background-image: url("../img/index-background-desktop@2x.jpg");
-      background-position: 0 45px;
+      background-position: 0 43px;
       background-size: 100%;
     }
   }
@@ -147,12 +155,12 @@
 
   .programs__img {
     left: 50%;
-    top: -64px;
+    top: -37px;
     width: 100%;
     max-width: 552px;
     height: auto;
     max-height: 499px;
-    margin-left: -163px;
+    margin-left: -159px;
   }
 
   .programs__content {
@@ -161,12 +169,7 @@
 
   .programs__button {
     width: 58%;
-    margin-top: 53px;
-  }
-
-  .programs__wrapper {
-    padding-left: 91px;
-    box-sizing: border-box;
+    margin-top: 52px;
   }
 
   .programs__title {

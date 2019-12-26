@@ -12,6 +12,7 @@
   background-image: url("../img/before-mobile@1x.png");
   background-repeat: no-repeat;
   background-color: #f2f2f2;
+  background-position: 5px 3px;
   width: 311px;
   height: 232px;
 
@@ -76,6 +77,7 @@
   appearance: none;
   background: transparent;
   opacity: 0;
+  width: 103px;
 }
 
 .slider__range [type="range"]::-webkit-slider-thumb {
@@ -85,7 +87,7 @@
 
 @media (min-width: $width-m) {
   .slider {
-    margin-top: 25px;
+    margin-top: 47px;
     left: 9px;
   }
 
@@ -93,7 +95,7 @@
     background-image: url("../img/before-tablet@1x.png");
     background-size: auto 517px;
     background-color: transparent;
-    width: 50%;
+    width: 49%;
     height: 517px;
 
     @media (min-resolution: $retina-dppx) {
@@ -108,7 +110,7 @@
     right: 0;
     left: 0;
     bottom: 0;
-    background: linear-gradient(to bottom, #ffffff 172px, #f2f2f2 172px);
+    background: linear-gradient(to bottom, #ffffff 179px, #f2f2f2 179px);
     z-index: -1;
   }
 
@@ -124,15 +126,16 @@
   .slider__control {
     padding-top: 0;
     padding-bottom: 87px;
-    margin-left: 0;
+    margin-left: -19px;
+    margin-top: 18px;
   }
 
   .slider__range {
     border: none;
     background-color: transparent;
     min-width: 428px;
-    left: -7px;
-    top: -5px;
+    left: 2px;
+    top: 2px;
   }
 
   .slider__button {
@@ -181,15 +184,16 @@
   }
 
   .slider__range [type="range"]::-webkit-slider-thumb {
-    box-shadow: 0 1px 2px 1px #d7d7d7, inset 0 0 0 8px $text_color_light;
+    box-shadow: 0 1px 2px 1px #d7d7d7, inset 0 0 0 10px $text_color_light;
     border: 1px solid $radio_color;
-    height: 30px;
-    width: 30px;
+    height: 33px;
+    width: 33px;
     border-radius: 50%;
     background: $primary_color;
     cursor: pointer;
     appearance: none;
-    margin-top: -10.5px;
+    margin-top: -14px;
+    margin-left: 1px;
   }
 
   .slider__range [type="range"]::-moz-range-track {
@@ -258,6 +262,7 @@
 @media (min-width: $width-l) {
   .slider {
     margin-top: -32px;
+    left: 35px;
   }
 
   .slider__image-before {
@@ -275,7 +280,7 @@
   }
 
   .slider__control {
-    margin-top: 49px;
-    margin-left: 84px;
+    margin-top: 41px;
+    margin-left: 48px;
   }
 }

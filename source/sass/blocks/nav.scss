@@ -34,7 +34,7 @@
 @media (min-width: $width-m) {
   .nav__list {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
   }
 
   .nav__item {
@@ -55,6 +55,7 @@
 @media (min-width: $width-l) {
   .nav {
     width: 40%;
+    margin-left: 165px;
   }
 
   .nav__link {

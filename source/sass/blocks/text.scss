@@ -1,12 +1,11 @@
 .text {
   color: $text_color_default;
   font-family: $font-family_secondary;
-  font-size: $font-size_primary;
-  line-height: $line-height_default;
 }
 
 @media (min-width: $width-m) {
   .text {
+    font-size: $font-size_primary;
     line-height: $line-height_subject;
   }
 }

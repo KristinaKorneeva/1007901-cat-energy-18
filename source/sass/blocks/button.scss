@@ -2,8 +2,8 @@
   font-family: $font-family_primary;
   background-color: $primary-color;
   color: $text_color_light;
-  font-size: $font-size_primary;
-  line-height: $line-height_nav;
+  font-size: $font-size_default;
+  line-height: $line-height_default;
   text-transform: uppercase;
   text-align: center;
 
@@ -12,8 +12,8 @@
   border: none;
   display: block;
   width: 100%;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 11px;
+  padding-bottom: 11px;
 }
 
 .button:focus {
