@@ -12,7 +12,7 @@
 }
 
 .form__filling {
-  margin-top: 31px;
+  margin-top: 22px;
 }
 
 .form__item-data {
@@ -61,7 +61,7 @@
 }
 
 .form__label {
-  padding-right: 9px;
+  padding-right: 12px;
 }
 
 .form__item-radio {
@@ -88,8 +88,9 @@
 .form__list {
   list-style: none;
   padding-left: 20px;
-  margin-bottom: 23px;
-  padding-top: 12px;
+  padding-bottom: 16px;
+  padding-top: 19px;
+  margin-bottom: 27px;
 }
 
 .form__label--radio {
@@ -140,7 +141,9 @@
 }
 
 .form__list--checkbox {
-  padding-left: 2px;
+  padding-left: 0;
+  margin-bottom: 2px;
+  margin-top: 6px;
 }
 
 .form__label--checkbox {
@@ -220,13 +223,12 @@
 
   .form__item-data {
     margin-top: 15px;
-    margin-bottom: 32px;
+    margin-bottom: 0;
   }
 
   .form__item-radio {
-    margin: 0;
-    margin-bottom: 12px;
-    padding-top: 23px;
+    margin: 0 0 20px;
+    padding-top: 17px;
   }
 
   .form__label--radio {
@@ -261,7 +263,9 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-top: -42px;
+
+    margin-top: -53px;
+    margin-bottom: 30px;
   }
 
   .form__checkbox {
@@ -320,12 +324,21 @@
     justify-content: space-between;
   }
 
+  .form__textarea {
+    padding: 16px;
+  }
+
   .form__button {
     width: 47%;
   }
 
+  .form__checkbox {
+    margin-right: 9px;
+  }
+
   .form__list--checkbox {
-    margin-top: -41px;
+    margin-top: -50px;
+    margin-bottom: 36px;
   }
 
   .form__instruction {
@@ -334,7 +347,7 @@
   }
 
   .form__item {
-    margin-top: 38px;
+    margin-top: 43px;
   }
 
   .form__item-radio {
@@ -345,6 +358,7 @@
 
   .form__input:hover {
     border-color: $checked_color;
+    padding: 10px;
   }
 
   .form__label--radio:hover::before {

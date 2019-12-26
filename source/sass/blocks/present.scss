@@ -21,11 +21,10 @@
 
   margin: 0;
   width: 170px;
-  padding-left: 55px;
 }
 
 .present__logo {
-  padding-top: 60px;
+  padding-top: 46px;
   padding-bottom: 60px;
 }
 
@@ -45,6 +44,10 @@
       background-image: url("../img/gift-photo-tablet@2x.jpg");
     }
   }
+
+  .present__text {
+    text-align: start;
+  }
 }
 
 @media (min-width: $width-l) {
@@ -54,13 +57,18 @@
 
     width: 249px;
     height: 288px;
-    margin-top: 0;
+    margin-top: 29px;
 
     @media (min-resolution: $retina-dppx) {
       background-image: url("../img/gift-photo-desktop@2x.jpg");
     }
 
+    .present__logo {
+      padding-top: 63px;
+    }
+
     .present__text {
+      text-align: center;
       padding-left: 40px;
     }
   }

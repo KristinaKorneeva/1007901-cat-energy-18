@@ -61,7 +61,6 @@
   .programs {
     color: $text_color_main;
 
-    padding-left: 118px;
     margin-bottom: 0;
     margin-top: 24px;
   }
@@ -72,7 +71,7 @@
 
   .programs__wrapper {
     text-align: left;
-    padding-left: 0;
+    padding-left: 117px;
   }
 
   .programs__title {
@@ -120,8 +119,7 @@
 
 @media (min-width: $width-l) {
   .programs {
-    margin-top: -44px;
-    padding-left: 191px;
+    margin-top: -71px;
   }
 
   .programs::after {
@@ -141,6 +139,10 @@
       background-position: 0 43px;
       background-size: 100%;
     }
+  }
+
+  .programs__wrapper {
+    padding-left: 120px;
   }
 
   .programs__wrapper-img {
