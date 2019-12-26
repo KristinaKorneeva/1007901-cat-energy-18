@@ -41,6 +41,10 @@
   padding: 13px;
 }
 
+.form__input::placeholder {
+  color: $text_color_default;
+}
+
 .form__input:focus {
   border: 2px solid $text_color_default;
   outline: none;

@@ -8,9 +8,9 @@
   padding-top: 15px;
 }
 
-.copyright__link {
+.copyright__logo-name {
+  font-family: $font-family_secondary;
   font-size: $font-size_primary;
-  line-height: $line-height_primary;
   color: $text_color_default;
 
   padding-top: 22px;
@@ -19,11 +19,6 @@
 
 .copyright__logo:focus .copyright__logo--academy {
   color: $primary_color;
-}
-
-.copyright__logo-name {
-  font-family: $font-family_secondary;
-  font-size: $font-size_primary;
 }
 
 @media (min-width: $width-m) {

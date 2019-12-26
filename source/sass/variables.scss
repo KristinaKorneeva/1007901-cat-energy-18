@@ -1,10 +1,15 @@
-$font-family_primary:  "Oswald", sans-serif;
-$font-family_secondary: "Arial", sans-serif;
+$font-family_primary:  "Oswald", "Arial", sans-serif;
+$font-family_secondary: "Arial", "Tahoma", sans-serif;
 /*переменные для ширины*/
 $width-s: 320px;
 $width-m: 768px;
 $width-l: 1300px;
 $retina-dppx: 1.5dppx;
+/*кнопка в programs*/
+$main_margin: 0 auto;
+$mobil_padding: 0 20px;
+$tablet__padding: 0 30px;
+$desktop__padding: 0 40px;
 /*переменные для цветов*/
 $primary_color: #68b738;
 $background_color: #61a842;
@@ -14,6 +19,11 @@ $icon__color: #666666;
 $radio_color: #cecece;
 $checked_color: #cdcdcd;
 $error_color: #ff8282;
+/*переменные для цветов текста*/
+$text_color_main: #111111;
+$text_color_default: #444444;
+$text_color_light: #ffffff;
+$text_color_content: #222222;
 /*переменные для состояния кнопок*/
 $radio_color_hover: #bfbfbf;
 $checked_color_hover: #bababa;
@@ -26,11 +36,6 @@ $border_tertairy: 1px solid #d9d9d9;
 $border_catalog: 1px solid #ededed;
 $border_catalog-dotted: 1px dotted #989898;
 $border_catalog-solid: 1px solid #989898;
-/*переменные для цветов текста*/
-$text_color_main: #111111;
-$text_color_default: #444444;
-$text_color_light: #ffffff;
-$text_color_content: #222222;
 /*переменные для размера шрифта*/
 $font-size_default: 14px;
 $font-size_nav: 20px;
@@ -49,8 +54,3 @@ $line-height_title: 60px;
 $line-height_subject: 24px;
 $line-height_secondary: 12px;
 $line-height_primary: 16px;
-/*кнопка в programs*/
-$main_margin: 0 auto;
-$mobil_padding: 0 20px;
-$tablet__padding: 0 30px;
-$desktop__padding: 0 40px;
