@@ -12,7 +12,7 @@ ymaps.ready(function () {
     iconImageSize: [90, 78]
   });
 
-  map.geoObjects.add(pointer);
+  var geoObjects = map.geoObjects.add(pointer);
 
   var currentPixelCenter = map.getGlobalPixelCenter();
 
@@ -21,8 +21,16 @@ ymaps.ready(function () {
 
     if (window.matchMedia("(min-width: 1300px)").matches) {
       map.setGlobalPixelCenter([currentPixelCenter[0] - offset[0], currentPixelCenter[1] - offset[1]]);
+      pointer.options.set('iconImageOffset', [-48, -75]);
+      pointer.options.set('iconImageSize', [90, 78]);
+    } else if (window.matchMedia("(max-width: 767px)").matches) {
+      pointer.options.set('iconImageOffset', [-25, -35]);
+      pointer.options.set('iconImageSize', [55, 55]);
+      map.setGlobalPixelCenter(currentPixelCenter);
     } else {
       map.setGlobalPixelCenter(currentPixelCenter);
+      pointer.options.set('iconImageOffset', [-48, -75]);
+      pointer.options.set('iconImageSize', [90, 78]);
     }
   }
 
