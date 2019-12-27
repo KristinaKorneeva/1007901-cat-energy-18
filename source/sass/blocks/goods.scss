@@ -13,14 +13,15 @@
 
 .goods__item {
   border-bottom: $border_secondary;
+
   padding-bottom: 18px;
   padding-top: 0;
 }
 
 .goods__info {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
 }
 
 .goods__name {
@@ -30,6 +31,7 @@
 
 .goods__button {
   font-size: $font-size_primary;
+
   width: 100%;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -41,10 +43,10 @@
 
 @media (min-width: $width-m) {
   .goods {
+    border: $border_main;
+
     width: 100%;
     margin-top: 60px;
-
-    border: $border_main;
   }
 
   .goods__text {
@@ -71,6 +73,7 @@
   .goods__wrapper {
     display: flex;
     justify-content: space-between;
+
     margin-bottom: 9px;
   }
 }
@@ -78,19 +81,20 @@
 @media (min-width: $width-l) {
   .goods {
     border: none;
+
     width: 73%;
     margin-top: 64px;
   }
 
   .goods__item {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
 
+    width: 100%;
     padding-right: 0;
     padding-left: 0;
     padding-top: 0;
-    width: 100%;
     padding-bottom: 7px;
   }
 
@@ -116,8 +120,9 @@
   }
 
   .goods__wrapper {
-    margin: 0;
     align-items: center;
+
+    margin: 0;
   }
 
   .goods__text {

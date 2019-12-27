@@ -36,8 +36,8 @@
 
 .footer__copyright {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
 }
 
 .footer__information {
@@ -62,9 +62,9 @@
 
   .footer__bottom {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
     flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 
     padding-top: 39px;
     padding-bottom: 34px;

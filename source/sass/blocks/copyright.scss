@@ -1,8 +1,8 @@
 .copyright__logo {
   color: $icon__color;
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
 
   width: 100%;
 }
@@ -16,7 +16,7 @@
   padding-bottom: 14px;
 }
 
-.copyright__logo:focus .copyright__logo--academy {
+.copyright__logo:focus .copyright__logo-academy {
   color: $primary_color;
 }
 

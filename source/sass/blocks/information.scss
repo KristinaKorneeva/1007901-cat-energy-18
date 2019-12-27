@@ -14,9 +14,10 @@
 }
 
 .information__map-card {
+  border: none;
+
   width: 100%;
   height: 100%;
-  border: none;
 }
 
 .information__maps {
@@ -38,8 +39,9 @@
 
   .information__contact {
     position: absolute;
-    z-index: 1;
-    width: 647px;
     right: 50%;
+    z-index: 1;
+
+    width: 647px;
   }
 }

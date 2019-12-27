@@ -1,37 +1,37 @@
 .subject {
-  display: inline-block;
-  position: relative;
-
   color: $text_color_main;
   font-size: $font-size_subject;
   line-height: $line-height_subject;
   font-weight: 400;
+
+  display: inline-block;
+  position: relative;
 }
 
 .subject::before {
+  content: "";
   display: none;
   position: absolute;
-  content: "";
+  right: 100%;
+  top: 14px;
 
   background: $primary_color;
 
   height: 3px;
   width: 100vw;
-  right: 100%;
-  top: 14px;
 }
 
 .subject::after {
+  content: "";
   display: block;
   position: absolute;
-  content: "";
+  left: 100%;
+  top: 13px;
 
   background: $primary_color;
 
   height: 3px;
   width: 100vw;
-  left: 100%;
-  top: 13px;
   margin-left: 22px;
 }
 

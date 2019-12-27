@@ -1,11 +1,11 @@
 .contact {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   text-align: start;
-  line-height: 20px;
+  line-height: $line-height_nav;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 
-  padding: 15px 0;
+  padding: 13px 0 13px 0;
 }
 
 .contact__invitation {
@@ -13,7 +13,7 @@
 }
 
 .contact__address-wrapper {
-  width: 275px;
+  width: 354px;
 }
 
 .contact__address {
@@ -29,33 +29,34 @@
 @media (min-width: $width-m) {
   .contact {
     justify-content: space-between;
-    padding: 47px 38px;
+    padding: 43px 38px;
   }
 
   .contact__address {
     text-align: end;
-    line-height: 29px;
+    line-height: 22px;
 
-    width: 26%;
-    margin-bottom: 14px;
-    margin-top: 6px;
+    margin-bottom: -2px;
+    margin-top: 20px;
   }
 
   .contact__invitation {
     line-height: $line-height_subject;
-    margin-top: 15px;
+
+    margin-top: 22px;
     width: 221px;
   }
 
   .contact__address-wrapper {
     width: 183px;
+    margin-top: -15px;
   }
 }
 
 @media (min-width: $width-l) {
   .contact {
-    background-color: $text_color_light;
     text-align: start;
+    background-color: $text_color_light;
 
     padding: 38px 57px 41px 75px;
     margin-top: 92px;
@@ -65,9 +66,14 @@
     margin-top: 26px;
   }
 
+  .contact__address-wrapper {
+    width: 207px;
+    margin-top: -5px;
+  }
+
   .contact__address {
     text-align: start;
-    width: 36%;
+
     margin-top: 14px;
     margin-right: 31px;
   }

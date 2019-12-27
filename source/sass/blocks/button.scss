@@ -1,16 +1,17 @@
 .button {
   font-family: $font-family_primary;
-  background-color: $primary-color;
   color: $text_color_light;
   font-size: $font-size_default;
   line-height: $line-height_default;
   text-transform: uppercase;
   text-align: center;
 
+  display: block;
+  background-color: $primary-color;
   cursor: pointer;
   box-sizing: border-box;
   border: none;
-  display: block;
+
   width: 100%;
   padding-top: 11px;
   padding-bottom: 11px;

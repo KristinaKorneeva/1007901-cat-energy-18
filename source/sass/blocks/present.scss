@@ -31,8 +31,8 @@
 @media (min-width: $width-m) {
   .present {
     display: flex;
-    justify-content: space-around;
     align-items: center;
+    justify-content: space-around;
 
     background-image: url("../img/gift-photo-tablet@1x.jpg");
     background-position: center;
@@ -47,6 +47,7 @@
 
   .present__text {
     text-align: start;
+
     margin-right: 23px;
     margin-left: 103px;
   }

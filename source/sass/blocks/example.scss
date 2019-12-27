@@ -10,27 +10,28 @@
 
 .example__wrapper-result {
   text-align: center;
+
   margin-top: 25px;
 }
 
 .example__result {
-  position: relative;
-
   text-align: center;
   border: $border_main;
   border-radius: 5px;
+  position: relative;
+
   width: 35%;
   padding-left: 12px;
   padding-right: 12px;
 }
 
 .example__indicators {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
   font-size: $font-size_subject;
   line-height: $line-height_subject;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 
   margin-bottom: 22px;
 }
@@ -41,11 +42,12 @@
 }
 
 .example__discription {
-  position: absolute;
   background-color: $secondary-color;
   border: none;
+  position: absolute;
   top: 33px;
   left: 18px;
+
   width: 50px;
   padding-right: 14px;
   padding-left: 14px;
@@ -82,30 +84,32 @@
 
   .example__wrapper-result {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
 
     margin-top: 54px;
   }
 
   .example__discription {
     background-color: $text_color_light;
-
     left: 3px;
     top: 45px;
+
     width: 146px;
     padding-right: 5px;
     padding-left: 5px;
   }
 
   .example__indicators {
-    width: 52%;
     font-size: $font-size_first;
     line-height: $line-height_heading;
+
+    width: 52%;
   }
 
   .example__text-wrapper {
     flex-wrap: wrap;
+
     width: 200px;
     margin-top: -23px;
     margin-right: -8px;
@@ -113,9 +117,12 @@
 
   .example__text-desc {
     line-height: 27px;
-    width: 182px;
     text-align: right;
+
+    width: 182px;
     margin: 0;
+    margin-top: 5px;
+    margin-bottom: 3px;
   }
 
   .example__text {
@@ -127,9 +134,9 @@
   .example__wrap {
     display: flex;
     justify-content: space-between;
+    border: none;
 
     margin-top: -180px;
-    border: none;
   }
 
   .example__title {
@@ -141,8 +148,9 @@
   }
 
   .example__wrapper-result {
-    flex-direction: column;
     text-align: left;
+    flex-direction: column;
+
     margin-top: 68px;
   }
 
@@ -151,6 +159,7 @@
     background-color: $secondary-color;
     left: 15px;
     top: 47px;
+
     width: 129px;
     padding-right: 5px;
     padding-left: 5px;
@@ -170,8 +179,11 @@
   }
 
   .example__text-wrapper {
-    width: 100%;
     justify-content: flex-start;
+
+    width: 100%;
+    margin-top: -27px;
+    margin-right: 0;
   }
 
   .example__text-desc {

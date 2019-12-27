@@ -1,13 +1,13 @@
 .card__wrapper {
   display: flex;
-  justify-content: end;
   align-items: center;
+  justify-content: end;
 }
 
 .card__link {
   display: flex;
-  justify-content: start;
   align-items: center;
+  justify-content: start;
 }
 
 .card__title {
@@ -53,11 +53,11 @@
 
   .card__table {
     text-align: center;
+    border-collapse: collapse;
 
     width: 248px;
     height: 40px;
     margin-bottom: 36px;
-    border-collapse: collapse;
   }
 
   .card__link {
