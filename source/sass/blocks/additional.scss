@@ -1,6 +1,6 @@
 .additional {
-  margin-bottom: 29px;
-  margin-top: 10px;
+  margin-bottom: 35px;
+  margin-top: 11px;
 }
 
 .additional__title {
@@ -11,11 +11,12 @@
 
 @media (min-width: $width-m) {
   .additional {
-    margin-bottom: 80px;
+    margin-bottom: 76px;
   }
 
   .additional__title {
     border: none;
+    margin-left: 37px;
     margin-top: 0;
   }
 }
@@ -30,5 +31,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+  }
+
+  .additional__title {
+    margin-left: 0;
   }
 }

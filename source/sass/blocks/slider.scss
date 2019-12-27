@@ -124,10 +124,10 @@
   }
   /*range*/
   .slider__control {
-    padding-top: 0;
-    padding-bottom: 87px;
     margin-left: -19px;
-    margin-top: 18px;
+    margin-top: 14px;
+    padding-top: 0;
+    padding-bottom: 97px;
   }
 
   .slider__range {
@@ -268,10 +268,15 @@
   .slider__image-before {
     background-image: url("../img/before-desktop@1x.png");
     background-color: transparent;
+    width: 53%;
 
     @media (min-resolution: $retina-dppx) {
       background-image: url("../img/before-desktop@2x.png");
     }
+  }
+
+  .slider__image-after {
+    margin-right: -3px;
   }
 
   .slider__image-before::before {

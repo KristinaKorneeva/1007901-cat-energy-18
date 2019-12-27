@@ -56,6 +56,10 @@
   justify-content: center;
 }
 
+.example__text {
+  width: 266px;
+}
+
 @media (min-width: $width-m) {
   .example__title {
     margin-bottom: 63px;
@@ -68,8 +72,8 @@
   }
 
   .example__result {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 16px;
+    padding-right: 17px;
   }
 
   .example__indicator {
@@ -103,13 +107,19 @@
   .example__text-wrapper {
     flex-wrap: wrap;
     width: 200px;
-    margin-top: -19px;
+    margin-top: -23px;
+    margin-right: -8px;
   }
 
   .example__text-desc {
+    line-height: 27px;
     width: 182px;
     text-align: right;
     margin: 0;
+  }
+
+  .example__text {
+    width: 680px;
   }
 }
 
@@ -137,28 +147,26 @@
   }
 
   .example__discription {
+    font-size: $font-size_default;
     background-color: $secondary-color;
     left: 15px;
     top: 47px;
     width: 129px;
     padding-right: 5px;
     padding-left: 5px;
-    font-size: $font-size_default;
   }
 
   .example__indicators {
-    margin-bottom: 75px;
     width: 100%;
+    margin-bottom: 86px;
   }
 
   .example__result {
-    padding-left: 8px;
-    padding-right: 8px;
-    margin-right: 54px;
+    margin-right: 58px;
   }
 
   .example__indicator {
-    margin: 17px 0;
+    margin: 14px 0;
   }
 
   .example__text-wrapper {
@@ -169,5 +177,9 @@
   .example__text-desc {
     width: 176px;
     margin-right: -22px;
+  }
+
+  .example__text {
+    width: 435px;
   }
 }

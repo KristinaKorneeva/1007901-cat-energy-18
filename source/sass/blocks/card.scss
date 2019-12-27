@@ -12,7 +12,7 @@
 
 .card__title {
   width: 78px;
-  margin: 0;
+  margin: 0 -1px -3px -1px;
 }
 
 .card__cell--name {
@@ -25,12 +25,14 @@
 }
 
 .card__table {
-  height: 60px;
-  width: 147px;
+  height: 50px;
+  width: 146px;
   margin-left: -4px;
+  margin-top: 17px;
 }
 
 .card__button {
+  font-size: $font-size_primary;
   margin-top: -3px;
 }
 
@@ -45,16 +47,16 @@
 
   .card__cell--name {
     padding-right: 143px;
-    padding-bottom: 8px;
+    padding-bottom: 6px;
     padding-top: 10px;
   }
 
   .card__table {
     text-align: center;
 
-    width: 100%;
-    height: 113px;
-    margin-bottom: 20px;
+    width: 248px;
+    height: 40px;
+    margin-bottom: 36px;
     border-collapse: collapse;
   }
 
@@ -104,6 +106,14 @@
     width: 70%;
   }
 
+  .card__link-img--smal {
+    top: -41px;
+  }
+
+  .card__link-img--big {
+    top: -77px;
+  }
+
   .card__description {
     width: 188px;
     padding-left: 13px;
@@ -116,11 +126,19 @@
   .card__button {
     width: 81%;
     margin-left: 20px;
+    margin-top: -7px;
   }
 
   .card__cell--name {
     padding-right: 0;
     padding-bottom: 0;
     padding-top: 0;
+  }
+
+  .card__table {
+    width: 170px;
+    height: 101px;
+    margin-bottom: 36px;
+    margin-left: 4px;
   }
 }

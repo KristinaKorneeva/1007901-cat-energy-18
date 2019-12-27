@@ -21,16 +21,16 @@ ymaps.ready(function () {
 
     if (window.matchMedia("(min-width: 1300px)").matches) {
       map.setGlobalPixelCenter([currentPixelCenter[0] - offset[0], currentPixelCenter[1] - offset[1]]);
-      pointer.options.set('iconImageOffset', [-48, -75]);
-      pointer.options.set('iconImageSize', [90, 78]);
+      pointer.options.set('iconImageOffset', [-20, -80]);
+      pointer.options.set('iconImageSize', [120, 100]);
     } else if (window.matchMedia("(max-width: 767px)").matches) {
-      pointer.options.set('iconImageOffset', [-25, -35]);
-      pointer.options.set('iconImageSize', [55, 55]);
+      pointer.options.set('iconImageOffset', [-30, -40]);
+      pointer.options.set('iconImageSize', [61, 51]);
       map.setGlobalPixelCenter(currentPixelCenter);
     } else {
       map.setGlobalPixelCenter(currentPixelCenter);
-      pointer.options.set('iconImageOffset', [-48, -75]);
-      pointer.options.set('iconImageSize', [90, 78]);
+      pointer.options.set('iconImageOffset', [-60, -50]);
+      pointer.options.set('iconImageSize', [120, 100]);
     }
   }
 
