@@ -7,11 +7,13 @@
 
 @media (min-width: $width-l) {
   .categores {
+    margin-top: 271px;
+  }
+
+  .categores__wrapper {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-
-    margin-top: 271px;
   }
 }

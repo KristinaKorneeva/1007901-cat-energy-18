@@ -1,5 +1,5 @@
 .contact {
-  text-align: start;
+  text-align: left;
   line-height: $line-height_nav;
   display: flex;
   align-items: center;
@@ -55,7 +55,7 @@
 
 @media (min-width: $width-l) {
   .contact {
-    text-align: start;
+    text-align: left;
     background-color: $text_color_light;
 
     padding: 38px 57px 41px 75px;
@@ -72,7 +72,7 @@
   }
 
   .contact__address {
-    text-align: start;
+    text-align: left;
 
     margin-top: 14px;
     margin-right: 31px;

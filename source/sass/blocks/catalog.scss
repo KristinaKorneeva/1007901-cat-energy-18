@@ -44,7 +44,7 @@
 }
 
 @media (min-width: $width-m) {
-  .catalog {
+  .catalog__wrapper {
     display: flex;
     flex-wrap: wrap;
     align-items: center;

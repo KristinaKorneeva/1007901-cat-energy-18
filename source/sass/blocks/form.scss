@@ -89,6 +89,10 @@
   margin-top: 14px;
 }
 
+.form__textarea:focus {
+  padding: 12px;
+}
+
 .form__list {
   list-style: none;
   padding-left: 20px;
@@ -248,6 +252,10 @@
     margin-bottom: 16px;
   }
 
+  .form__textarea:focus {
+    padding: 17px;
+  }
+
   .form__label {
     padding-right: 23px;
   }
@@ -270,7 +278,7 @@
     justify-content: start;
 
     margin-top: 0;
-    margin-bottom: 68px;
+    margin-bottom: 72px;
   }
 
   .form__text {
@@ -407,6 +415,11 @@
   .form__input:hover {
     border-color: $checked_color;
   }
+
+  .form__input:focus {
+    border-color: $text_color_default;
+  }
+
 
   .form__label--radio {
     padding-left: 54px;

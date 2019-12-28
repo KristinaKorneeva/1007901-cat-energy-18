@@ -104,7 +104,7 @@
   }
 
   .programs__button {
-    position: initial;
+    position: inherit;
     order: 2;
 
     width: 247px;
@@ -174,7 +174,6 @@
   }
 
   .programs__button {
-    width: 58%;
     margin-top: 52px;
   }
 

@@ -4,6 +4,7 @@
   background-image: url("../img/gift-photo-mobile@1x.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: $primary_color;
 
   height: 289px;
   width: 100%;
@@ -46,7 +47,7 @@
   }
 
   .present__text {
-    text-align: start;
+    text-align: left;
 
     margin-right: 23px;
     margin-left: 103px;

@@ -76,7 +76,7 @@
   }
 
   .discription__item {
-    align-items: center;
+    align-items: flex-start;
     justify-content: flex-start;
 
     background-repeat: no-repeat;
@@ -97,7 +97,7 @@
   .discription__text {
     width: 264px;
     margin-left: 0;
-    margin-top: 76px;
+    margin-top: 114px;
   }
 
   .discription__title {
@@ -151,6 +151,6 @@
 
   .discription__text {
     min-width: 265px;
-    margin-top: 76px;
+    margin-top: 112px;
   }
 }
