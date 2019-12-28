@@ -1,4 +1,4 @@
-var imgCat = document.querySelector('.slider__image--before');
+var imgCat = document.querySelector('.slider__image-before');
 var input = document.querySelector('.slider__input');
 var buttonBefore = document.querySelector('.slider__button--before');
 var buttonAfter = document.querySelector('.slider__button--after');

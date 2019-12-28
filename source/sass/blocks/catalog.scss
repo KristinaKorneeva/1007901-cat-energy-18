@@ -1,50 +1,57 @@
 .catalog {
-  margin-top: 41px;
+  margin-top: 39px;
 }
 
 .catalog__card {
   border: $border_catalog;
 
-  margin: 0 -20px;
   padding-left: 20px;
   padding-right: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 23px;
+  margin: 0 -20px;
 }
 
 .catalog__more {
-  box-sizing: border-box;
   text-align: center;
+  box-sizing: border-box;
   border: $border_catalog;
 
-  padding: 26px 20px;
+  padding: 25px 20px;
 }
 
 .catalog__icon {
   opacity: 0.3;
 }
 
-.catalog__button {
-  background-color: $secondary_color;
-  color: $text_color_default;
+.catalog__discription {
+  margin-top: 20px;
+  margin-bottom: -4px;
 }
 
-.catalog__button:hover,
+.catalog__button {
+  color: $text_color_default;
+  background-color: $secondary_color;
+}
+
 .catalog__button:focus {
   background-color: $secondary_color_hover;
 }
 
-.catalog__button:active {
-  color: rgba($text_color_default, 0.3);
+.catalog__text {
+  font-size: $font-size_secondary;
+
+  margin-bottom: 24px;
 }
 
 @media (min-width: $width-m) {
   .catalog {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
     justify-content: space-between;
     box-sizing: border-box;
 
-    margin-bottom: 31px;
+    margin-bottom: 43px;
   }
 
   .catalog__card {
@@ -55,7 +62,7 @@
     width: 40%;
     min-height: 410px;
     margin: 0;
-    margin-bottom: 30px;
+    margin-bottom: 23px;
     margin-top: 115px;
   }
 
@@ -72,31 +79,40 @@
   }
 
   .catalog__text {
+    font-size: $font-size_primary;
+
     padding-left: 40px;
     padding-right: 40px;
+    margin-top: 26px;
+    margin-bottom: 82px;
   }
 
   .catalog__icon {
     width: 61px;
     height: 61px;
-    margin-top: 20px;
-    margin-bottom: 50px;
+    margin-top: 18px;
+    margin-bottom: 27px;
   }
 
   .catalog__button {
-    margin-top: 80px;
+    margin-top: 44px;
   }
 }
 
 @media (min-width: $width-l) {
+  .catalog {
+    margin-bottom: 50px;
+  }
+
   .catalog__card {
-    width: 17%;
-    min-height: 431px;
+    width: 210px;
     padding-bottom: 0;
+    min-height: 431px;
+    margin: 111px 0 30px;
   }
 
   .catalog__more {
-    min-width: 20%;
+    width: 250px;
     padding-right: 20px;
     padding-left: 20px;
   }
@@ -109,5 +125,21 @@
   .catalog__text {
     padding-left: 10px;
     padding-right: 10px;
+  }
+
+  .catalog__button:hover {
+    background-color: $secondary_color_hover;
+  }
+
+  .catalog__button:active {
+    color: rgba($text_color_default, 0.3);
+  }
+
+  .catalog__icon {
+    margin-bottom: 44px;
+  }
+
+  .catalog__button {
+    margin-top: 82px;
   }
 }

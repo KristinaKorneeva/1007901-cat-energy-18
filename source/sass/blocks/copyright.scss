@@ -1,26 +1,37 @@
 .copyright__logo {
   color: $icon__color;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 100%;
 }
 
-.copyright__logo:hover,
-.copyright__logo:focus {
+.copyright__logo-name {
+  font-family: $font-family_secondary;
+  font-size: $font-size_primary;
+  color: $text_color_default;
+
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+
+.copyright__logo:focus .copyright__logo-academy {
   color: $primary_color;
 }
 
-.copyright__logo:focus {
-  opacity: 0.6;
-}
-
-.copyright__link {
-  font-family: $font-family_secondary;
-}
-
-.copyright__link:focus {
-  opacity: 0.6;
-}
-
 @media (min-width: $width-m) {
-  .copyright__link {
+  .copyright__logo-name {
     margin-right: 25px;
+  }
+}
+
+@media (min-width: $width-l) {
+  .copyright__logo[href]:hover .copyright__logo-academy {
+    color: $primary_color;
+  }
+
+  .copyright__logo:active {
+    opacity: 0.6;
   }
 }

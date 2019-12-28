@@ -15,31 +15,26 @@
 }
 
 .nav__link {
-  display: block;
-
   font-size: $font-size_nav;
   line-height: $line-height_nav;
   font-weight: 500;
   text-transform: uppercase;
   color: $text_color_main;
 
+  display: block;
+
   padding-top: 24px;
   padding-bottom: 24px;
 }
 
-.nav__link[href]:hover,
 .nav__link[href]:focus {
   opacity: 0.6;
-}
-
-.nav__link[href]:active {
-  opacity: 0.3;
 }
 
 @media (min-width: $width-m) {
   .nav__list {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
   }
 
   .nav__item {
@@ -59,7 +54,8 @@
 
 @media (min-width: $width-l) {
   .nav {
-    width: 50%;
+    width: 40%;
+    margin-left: 165px;
   }
 
   .nav__link {
@@ -76,5 +72,13 @@
 
   .nav__link-act {
     border-bottom: 2px solid $text_color_light;
+  }
+
+  .nav__link[href]:hover {
+    opacity: 0.6;
+  }
+
+  .nav__link[href]:active {
+    opacity: 0.3;
   }
 }

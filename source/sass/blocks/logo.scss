@@ -2,6 +2,13 @@
   display: none;
 }
 
+.logo_desktop {
+  display: none;
+}
+
+.logo:focus {
+  opacity: 0.8;
+}
 
 @media (min-width: $width-m) {
   .logo__tablet {
@@ -12,12 +19,21 @@
     display: none;
   }
 
-  .logo__tablet:hover,
-  .logo__tablet:focus {
+  .logo[href]:hover {
     opacity: 0.8;
   }
 
-  .logo__tablet:active {
+  .logo:active {
     opacity: 0.6;
+  }
+}
+
+@media (min-width: $width-l) {
+  .logo_desktop {
+    display: block;
+  }
+
+  .logo__tablet {
+    display: none;
   }
 }

@@ -1,27 +1,28 @@
 .button {
   font-family: $font-family_primary;
-  background-color: $primary-color;
   color: $text_color_light;
-  font-size: $font-size_primary;
-  line-height: $line-height_nav;
+  font-size: $font-size_default;
+  line-height: $line-height_default;
   text-transform: uppercase;
   text-align: center;
 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $primary-color;
   cursor: pointer;
   box-sizing: border-box;
-  display: block;
+  border: none;
+
   width: 100%;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 11px;
+  padding-bottom: 11px;
 }
 
-.button:hover {
+.button:focus {
   background-color: $primary_color_hover;
 }
 
-.button:active {
-  color: rgba($text_color_light, 0.3);
-}
 
 @media (min-width: $width-m) {
   .button {
@@ -29,5 +30,15 @@
     line-height: $line-height_nav;
 
     width: 243px;
+  }
+}
+
+@media (min-width: $width-l) {
+  .button:hover {
+    background-color: $primary_color_hover;
+  }
+
+  .button:active {
+    color: rgba($text_color_light, 0.3);
   }
 }

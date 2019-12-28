@@ -1,13 +1,15 @@
 @font-face {
   font-family: "Oswald";
-  src: url("../fonts/oswaldregular.woff") format("woff"), url("../fonts/oswaldregular.woff2") format("woff2");
+  src: url("../fonts/oswaldregular.woff2") format("woff2"), url("../fonts/oswaldregular.woff") format("woff");
   font-weight: 400;
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Oswald";
-  src: url("../fonts/oswaldmedium.woff") format("woff"), url("../fonts/oswaldmedium.woff2") format("woff2");
+  src: url("../fonts/oswaldmedium.woff2") format("woff2"), url("../fonts/oswaldmedium.woff") format("woff");
   font-weight: 500;
+  font-display: swap;
 }
 
 @import "variables.scss";
@@ -42,3 +44,5 @@
 @import "blocks/logo.scss";
 @import "blocks/column.scss";
 @import "blocks/input.scss";
+@import "blocks/logo-icon.scss";
+@import "blocks/main.scss";

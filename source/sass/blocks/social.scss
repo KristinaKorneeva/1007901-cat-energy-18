@@ -1,36 +1,46 @@
 .social__item {
-  margin-right: 40px;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+
+  margin-right: 38px;
 }
 
 .social__link {
   color: $icon__color;
 }
 
-.social__link:hover,
 .social__link:focus {
   color: $primary_color;
 }
 
-.social__link:active {
-  opacity: 0.6;
-}
-
 @media (min-width: $width-m) {
-  .social__link--vk {
+  .social__link-vk {
     width: 30px;
     height: 16px;
   }
 
-  .social__link--insta {
+  .social__link-insta {
     width: 23px;
     height: 23px;
   }
 
-  .social__link--fb {
+  .social__link-fb {
     width: 14px;
     height: 28px;
+  }
+
+  .social__link[href]:hover {
+    color: $primary_color;
+  }
+
+  .social__link:active {
+    opacity: 0.6;
+  }
+}
+
+@media (min-width: $width-m) {
+  .social__item {
+    margin-right: 25px;
   }
 }

@@ -11,3 +11,9 @@
     line-height: $line-height_title;
   }
 }
+
+@media (min-width: $width-l) {
+  .title--size {
+    margin-top: 0;
+  }
+}

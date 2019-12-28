@@ -2,8 +2,9 @@
   font-family: $font-family_primary;
   font-size: $font-size_primary;
   line-height: $line-height_default;
-  color: $text_color_main;
+  color: $text_color_content;
   text-transform: uppercase;
+  font-weight: 400;
 }
 
 @media (min-width: $width-m) {

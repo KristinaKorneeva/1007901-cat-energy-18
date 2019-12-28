@@ -1,40 +1,41 @@
 .subject {
-  display: inline-block;
-  position: relative;
-
   color: $text_color_main;
   font-size: $font-size_subject;
   line-height: $line-height_subject;
   font-weight: 400;
+
+  display: inline-block;
+  position: relative;
 }
 
 .subject::before {
-  display: block;
-  position: absolute;
   content: "";
+  display: none;
+  position: absolute;
+  right: 100%;
+  top: 14px;
 
   background: $primary_color;
 
   height: 3px;
   width: 100vw;
-  right: 100%;
-  top: 14px;
 }
 
 .subject::after {
+  content: "";
   display: block;
   position: absolute;
-  content: "";
+  left: 100%;
+  top: 13px;
 
   background: $primary_color;
 
   height: 3px;
   width: 100vw;
-  left: 100%;
-  top: 14px;
+  margin-left: 22px;
 }
 
-@media (min-width: $width-s) {
+@media (min-width: $width-m) {
   .subject {
     font-size: $font-size_heading;
     line-height: $line-height_heading;
@@ -42,18 +43,22 @@
   }
 
   .subject::before {
-    display: none;
-
-    margin-right: 0;
+    display: block;
+    top: 22px;
   }
 
   .subject::after {
-    margin-left: 25px;
+    top: 22px;
+    margin-left: -2px;
   }
 }
 
 @media (min-width: $width-m) {
   .subject::before {
-    display: block;
+    margin-right: 41px;
+  }
+
+  .subject::after {
+    margin-left: 35px;
   }
 }

@@ -1,0 +1,48 @@
+.logo-icon {
+  width: 203px;
+  height: 60px;
+}
+
+.logo-icon__desktop {
+  display: none;
+}
+
+.logo-icon__tablet {
+  display: none;
+}
+
+@media (min-width: $width-m) {
+  .logo-icon__mobil {
+    display: none;
+  }
+
+  .logo-icon__desktop {
+    display: block;
+  }
+
+  .logo-icon__tablet {
+    display: block;
+  }
+
+  .logo-icon__desktop-name {
+    display: none;
+  }
+
+  .logo-icon__desktop-strips {
+    display: none;
+  }
+}
+
+@media (min-width: $width-l) {
+  .logo-icon__tablet {
+    display: none;
+  }
+
+  .logo-icon__desktop-name {
+    display: block;
+  }
+
+  .logo-icon__desktop-strips {
+    display: block;
+  }
+}
